@@ -1,0 +1,18 @@
+{
+  "samples": [
+    512,
+    2048,
+    8192
+  ],
+  "calibration_alpha": 0.00034722222222222224,
+  "return_alpha": 1.4467592592592593e-05,
+  "learned_cap": 512,
+  "noise_variance_known": false,
+  "primary": {
+    "method": "Ridge",
+    "d": 0.05,
+    "training": 81920,
+    "calibration": 2048,
+    "total_budget": 126976
+  }
+}
