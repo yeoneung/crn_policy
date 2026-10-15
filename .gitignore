@@ -17,3 +17,11 @@ Thumbs.db
 .env.*
 .idea/
 .vscode/
+
+# Automatica submission build products and separately released original banks
+automatica_submission/reproducibility/crn_policy/data/*.zip
+automatica_submission/reproducibility/crn_policy/data/*.zip.part
+automatica_submission/Automatica_code.zip
+automatica_submission/Automatica_code.zip.sha256
+automatica_submission/output/
+ci-automatica/

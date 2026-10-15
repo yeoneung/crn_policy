@@ -1,0 +1,73 @@
+{
+  "known_support": {
+    "plants": 24,
+    "adopted": 24,
+    "mean_deployed_gain": 0.004995127643916661,
+    "deployed_gain_se": 0.00025487737928783425,
+    "mean_transitions": 99946.66666666667,
+    "mean_pairs": 225.33333333333334
+  },
+  "ordinary": {
+    "plants": 24,
+    "adopted": 0,
+    "mean_deployed_gain": 0.0,
+    "deployed_gain_se": 0.0,
+    "mean_transitions": 122880.0,
+    "mean_pairs": 512.0
+  },
+  "calibrated": {
+    "plants": 24,
+    "adopted": 22,
+    "mean_deployed_gain": 0.004728757074049764,
+    "deployed_gain_se": 0.00037491015235415186,
+    "mean_transitions": 110496.0,
+    "mean_pairs": 306.0
+  },
+  "ordinary_extra_pairs": {
+    "plants": 24,
+    "adopted": 0,
+    "mean_deployed_gain": 0.0,
+    "deployed_gain_se": 0.0,
+    "mean_transitions": 126960.0,
+    "mean_pairs": 563.0
+  },
+  "mechanical": {
+    "input_structure": {
+      "primary": {
+        "plants": 16,
+        "adopted": 16,
+        "mean_pairs": 295.0
+      },
+      "extended": {
+        "plants": 16,
+        "adopted": 16,
+        "mean_pairs": 295.0
+      }
+    },
+    "matrix_power": {
+      "primary": {
+        "plants": 16,
+        "adopted": 0,
+        "mean_pairs": 512.0
+      },
+      "extended": {
+        "plants": 16,
+        "adopted": 16,
+        "mean_pairs": 587.0
+      }
+    },
+    "ordinary_range": {
+      "primary": {
+        "plants": 16,
+        "adopted": 0,
+        "mean_pairs": 716.0
+      },
+      "extended": {
+        "plants": 16,
+        "adopted": 16,
+        "mean_pairs": 2582.0
+      }
+    }
+  },
+  "all_manuscript_table_and_mechanical_checks_passed": true
+}

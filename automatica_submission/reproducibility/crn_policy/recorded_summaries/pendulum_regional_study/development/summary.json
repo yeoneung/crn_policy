@@ -1,0 +1,80 @@
+{
+  "mode": "development",
+  "plants": 4,
+  "bounds": {
+    "regional_marginal": 0.2986177692092668,
+    "constantcap": 0.053647701862206035,
+    "statecap": 0.022793259682550682,
+    "global": 650.9441760435744
+  },
+  "mean_gain": 1.1637733579214024e-05,
+  "mean_relative_gain": 0.0002561725352970487,
+  "positive_plants": 4,
+  "actual_transitions": 11970560,
+  "groups": [
+    {
+      "kind": "global",
+      "method": "fixed_mixture",
+      "adoptions": 0,
+      "rejections": 0,
+      "censored": 4,
+      "mean_pairs": 32768.0
+    },
+    {
+      "kind": "global",
+      "method": "predictable_empirical_bernstein",
+      "adoptions": 0,
+      "rejections": 0,
+      "censored": 4,
+      "mean_pairs": 32768.0
+    },
+    {
+      "kind": "regional_marginal",
+      "method": "fixed_mixture",
+      "adoptions": 0,
+      "rejections": 0,
+      "censored": 4,
+      "mean_pairs": 32768.0
+    },
+    {
+      "kind": "regional_marginal",
+      "method": "predictable_empirical_bernstein",
+      "adoptions": 0,
+      "rejections": 0,
+      "censored": 4,
+      "mean_pairs": 32768.0
+    },
+    {
+      "kind": "constantcap",
+      "method": "fixed_mixture",
+      "adoptions": 2,
+      "rejections": 0,
+      "censored": 2,
+      "mean_pairs": 27004.0
+    },
+    {
+      "kind": "constantcap",
+      "method": "predictable_empirical_bernstein",
+      "adoptions": 0,
+      "rejections": 0,
+      "censored": 4,
+      "mean_pairs": 32768.0
+    },
+    {
+      "kind": "statecap",
+      "method": "fixed_mixture",
+      "adoptions": 2,
+      "rejections": 0,
+      "censored": 2,
+      "mean_pairs": 20880.0
+    },
+    {
+      "kind": "statecap",
+      "method": "predictable_empirical_bernstein",
+      "adoptions": 2,
+      "rejections": 0,
+      "censored": 2,
+      "mean_pairs": 27356.0
+    }
+  ]
+}

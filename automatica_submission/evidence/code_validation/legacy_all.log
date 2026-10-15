@@ -1,0 +1,12 @@
+Verified 40 frozen inputs.
+Verified 984 recorded files.
+[tests] -m unittest test_variance_replay test_coupling_sensitivity -v
+[support] reproduce_main_evidence.py
+[variance] variance_replay.py
+[coupling] summarize_coupling_sensitivity.py
+[coupling] audit_coupling_sensitivity.py
+[pendulum] summarize_pendulum_regional.py
+[pendulum] audit_pendulum_regional.py
+[pendulum] audit_nominal_reference.py
+[pendulum] audit_oracle_reference.py
+Passed: /private/tmp/automatica-strengthened-root-all-20261015/legacy-all

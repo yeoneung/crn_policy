@@ -1,0 +1,97 @@
+{
+  "exploratory": true,
+  "dimensions": [
+    8,
+    16
+  ],
+  "seeds": [
+    100,
+    101
+  ],
+  "displacements": [
+    0.05,
+    0.15
+  ],
+  "ridge": 0.1,
+  "training": 81920,
+  "selection": "Largest equal-weight mean relative gain over four development instances; no other hyperparameter grid.",
+  "rows": [
+    {
+      "n": 8,
+      "seed": 100,
+      "d": 0.05,
+      "gain": 0.0024071032253967545,
+      "baseline_return": -0.631779185402012,
+      "relative_gain": 0.0038100388252979137,
+      "seconds": 0.16051840782165527
+    },
+    {
+      "n": 8,
+      "seed": 100,
+      "d": 0.15,
+      "gain": 0.005120506222322291,
+      "baseline_return": -0.631779185402012,
+      "relative_gain": 0.008104898579499774,
+      "seconds": 0.1840531826019287
+    },
+    {
+      "n": 8,
+      "seed": 101,
+      "d": 0.05,
+      "gain": 0.0027592383515797894,
+      "baseline_return": -0.6332695377869835,
+      "relative_gain": 0.004357131027053966,
+      "seconds": 0.1886148452758789
+    },
+    {
+      "n": 8,
+      "seed": 101,
+      "d": 0.15,
+      "gain": 0.006090624962788036,
+      "baseline_return": -0.6332695377869835,
+      "relative_gain": 0.009617745050665575,
+      "seconds": 0.1945512294769287
+    },
+    {
+      "n": 16,
+      "seed": 100,
+      "d": 0.05,
+      "gain": 0.002367288632832637,
+      "baseline_return": -1.0031166907532303,
+      "relative_gain": 0.002359933450070563,
+      "seconds": 0.3485743999481201
+    },
+    {
+      "n": 16,
+      "seed": 100,
+      "d": 0.15,
+      "gain": 0.005435460414623188,
+      "baseline_return": -1.0031166907532303,
+      "relative_gain": 0.005418572400128,
+      "seconds": 0.35254549980163574
+    },
+    {
+      "n": 16,
+      "seed": 101,
+      "d": 0.05,
+      "gain": 0.002426411217641938,
+      "baseline_return": -1.0082397546559072,
+      "relative_gain": 0.0024065815758971196,
+      "seconds": 0.35114264488220215
+    },
+    {
+      "n": 16,
+      "seed": 101,
+      "d": 0.15,
+      "gain": 0.0056031377962028036,
+      "baseline_return": -1.0082397546559072,
+      "relative_gain": 0.005557346623487433,
+      "seconds": 0.35209131240844727
+    }
+  ],
+  "mean_relative_gains": {
+    "0.05": 0.003233421219579891,
+    "0.15": 0.007174640663445195
+  },
+  "chosen_displacement": 0.15
+}

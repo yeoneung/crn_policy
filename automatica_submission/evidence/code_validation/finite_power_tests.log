@@ -1,0 +1,21 @@
+test_calibration_against_independent_orthogonal_design_formula (test_finite_power.FinitePowerTests.test_calibration_against_independent_orthogonal_design_formula) ... ok
+test_fixed_validation_decision_and_support_violation (test_finite_power.FinitePowerTests.test_fixed_validation_decision_and_support_violation) ... ok
+test_invalid_inputs_fail_closed (test_finite_power.FinitePowerTests.test_invalid_inputs_fail_closed) ... ok
+test_nonnormal_baseline_and_analysis_constants (test_finite_power.FinitePowerTests.test_nonnormal_baseline_and_analysis_constants) ... ok
+test_residual_and_roundoff_margin_rejected (test_finite_power.FinitePowerTests.test_residual_and_roundoff_margin_rejected) ... ok
+test_return_formula_discount_and_displacement (test_finite_power.FinitePowerTests.test_return_formula_discount_and_displacement) ... ok
+test_scalar_linear_known_exact_envelope (test_finite_power.FinitePowerTests.test_scalar_linear_known_exact_envelope) ... ok
+test_search_minimizes_all_feasible_blocks (test_finite_power.FinitePowerTests.test_search_minimizes_all_feasible_blocks) ... ok
+test_validation_power_allocation_is_displacement_independent (test_finite_power.FinitePowerTests.test_validation_power_allocation_is_displacement_independent) ... ok
+test_exact_deterministic_gain_inside_interval (test_model_reference.ModelReferenceTests.test_exact_deterministic_gain_inside_interval) ... ok
+test_scale_upper_and_second_moment (test_model_reference.ModelReferenceTests.test_scale_upper_and_second_moment) ... ok
+test_uncertain_sign_or_large_noise_does_not_certify (test_model_reference.ModelReferenceTests.test_uncertain_sign_or_large_noise_does_not_certify) ... ok
+test_wrong_model_assumptions_rejected (test_model_reference.ModelReferenceTests.test_wrong_model_assumptions_rejected) ... ok
+test_failure_paths_and_no_lookahead_past_adoption (test_sequential.SequentialTests.test_failure_paths_and_no_lookahead_past_adoption) ... ok
+test_finite_horizon_envelope_has_exact_scalar_solution (test_sequential.SequentialTests.test_finite_horizon_envelope_has_exact_scalar_solution) ... ok
+test_stopping_matches_direct_products_at_inspections (test_sequential.SequentialTests.test_stopping_matches_direct_products_at_inspections) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.012s
+
+OK

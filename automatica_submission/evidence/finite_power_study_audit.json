@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "seed": 20261017,
+  "records_checked": 480,
+  "independent_time_two_bank_identities_checked": 252600,
+  "model_reference_derivation": "main.tex Appendix C",
+  "cost_table": [
+    {
+      "d": 0.05,
+      "ordinary": 1824,
+      "finite_horizon": 442,
+      "finite_power": 1018,
+      "robust_model": 346
+    },
+    {
+      "d": 0.025,
+      "ordinary": 3648,
+      "finite_horizon": 442,
+      "finite_power": 1018,
+      "robust_model": 346
+    },
+    {
+      "d": 0.0125,
+      "ordinary": 7200,
+      "finite_horizon": 442,
+      "finite_power": 1018,
+      "robust_model": 346
+    }
+  ],
+  "null_control_adoptions": 0,
+  "all_original_frozen_experiments_untouched": true,
+  "scope": "Additional study audit; no claim of empirical proof of error coverage or universal model-based dominance."
+}

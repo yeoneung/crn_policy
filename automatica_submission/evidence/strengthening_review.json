@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "review": "Strengthening literature positioning and finite-power evidence with a model-based reference",
+  "before_main_sha256": "f72f56d8e9ed193d0100835cc19719b00cdb91d0e96732e1b4fb13af9bc0f4b4",
+  "current_main_sha256": "64d7157f826c284cc607000a766f36e0dd46eae1216c0b6c76b9179d4788d63d",
+  "formal_integrity": {
+    "eight_statement_blocks_preserved_verbatim": true,
+    "eight_proof_blocks_preserved_verbatim": true,
+    "original_two_tables_preserved_verbatim": true,
+    "retired_expository_label": "eq:scalar-C; scalar envelope now stated inline"
+  },
+  "frozen_files_unchanged": {
+    "autart.cls": true,
+    "elsarticle-harv.bst": true,
+    "certification_mechanism.pdf": true,
+    "reproducibility/crn_policy/data/crn_policy_experiment_data.zip": true
+  },
+  "literature": {
+    "original_18_entries_retained": true,
+    "new_keys": [
+      "dorfler2023bridging",
+      "tu2022sample",
+      "zhang2022adversarial",
+      "zhao2025dataenabled"
+    ],
+    "primary_source_provenance": "template/strengthening_references.json",
+    "formatting_changes": "Consistent conference venue abbreviations; removed redundant URLs where complete metadata/DOIs are retained."
+  },
+  "additional_study": {
+    "protocol": "finite_power_study/protocol.json",
+    "independent_replications": 24,
+    "distinct_plants": 1,
+    "positive_actions": 3,
+    "zero_and_negative_controls": true,
+    "final_repetitions_excluded": 0,
+    "development_retained": "finite_power_development/",
+    "new_model_reference_uses_same_calibration_data": true,
+    "true_matrix_noise_scale_and_residual_not_supplied_to_checker": true,
+    "block_gate_passes": 24,
+    "one_step_gate_passes": 0,
+    "block_pairs_for_each_positive_action": 112,
+    "finite_horizon_pairs_for_each_positive_action": 16,
+    "model_reference_pairs": 0,
+    "audit": "finite_power_study_audit.json",
+    "false_adoption_level": ".05 per decision; no family-wise claim"
+  },
+  "mathematical_review": [
+    "Model reference uses a chi-square lower quantile to upper-bound unknown isotropic noise variance.",
+    "The row norm bound and global residual Lipschitz assumption control the second moment by Minkowski and independence of the last disturbance.",
+    "A local tanh derivative lower bound and nonnegative coupled shift yield the stated expected-gain lower bound.",
+    "Matrix/noise confidence failures or matrix/validation failures are combined by a union bound; independence is not required between calibration events."
+  ],
+  "scope_limits": [
+    "Model-based certification is cheapest in this deliberately short example; no superiority over all model-informed methods is claimed.",
+    "The finite-horizon envelope is tighter than the uniform block envelope in this short example.",
+    "The study evaluates the sequential mixture, not tightness of the fixed-sample sufficient allocation.",
+    "Global regularity, replicated resets and a robust margin remain assumptions; gain proportional to displacement remains a power condition.",
+    "The range-only lower bound applies to its stated information class."
+  ],
+  "layout": {
+    "pages": 12,
+    "references": 22,
+    "all_pages_visually_reviewed": true,
+    "new_table_and_model_derivation_reviewed": true,
+    "template_fonts_margins_unchanged": true,
+    "source_build_report": "../output/validation.json"
+  }
+}

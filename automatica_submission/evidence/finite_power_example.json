@@ -1,0 +1,56 @@
+{
+  "scope": "Separate new-theorem example; not a rerun of frozen manuscript experiments.",
+  "seed": 20261015,
+  "displacement": 0.05,
+  "horizon": 3,
+  "discount": 0.95,
+  "alpha": 0.05,
+  "beta": 0.05,
+  "delta": 0.05,
+  "planned_resets": 173,
+  "planned_validation_pairs": 317182,
+  "analysis": {
+    "S_star": 4.178052097866157,
+    "eta_star": 0.31956341628312135,
+    "support_coefficient": 37.29429904017674,
+    "gain_margin": 0.32417918783464805,
+    "true_matrix_norm": 1.2071067811865475
+  },
+  "calibration": {
+    "matrix_estimate": [
+      [
+        0.5005205676047035,
+        1.0002859985293155
+      ],
+      [
+        -0.0004489527181954498,
+        0.5008211471655493
+      ]
+    ],
+    "error_radius": 0.0025454821663962695,
+    "failure_probability": 0.0125,
+    "one_step_bound": 1.211305053668387
+  },
+  "certificate": {
+    "gain_per_displacement": 8.473436984809771,
+    "block_length": 4,
+    "margin": 0.47682552270672246,
+    "power_sum": 4.040351019404393,
+    "actuator_aware": false
+  },
+  "used_calibration_transitions": 346,
+  "used_validation_transitions": 1903092,
+  "adopted": true,
+  "mean_difference": 0.045084887632008,
+  "threshold": 0.00525251730330841,
+  "support": 1.2085239499584934,
+  "pairs": 317182,
+  "conditional_testing_level": 0.05,
+  "total_used_transitions": 1903438,
+  "maximum_state_to_bound_ratio": 0.3139644610034696,
+  "observed_gain_per_displacement": 0.9016977526401599,
+  "false_adoption_bound": 0.0625,
+  "theorem_power_lower_bound": 0.8999999999999999,
+  "diagnostic_true_error_within_radius": true,
+  "diagnostic_radius_within_target": true
+}

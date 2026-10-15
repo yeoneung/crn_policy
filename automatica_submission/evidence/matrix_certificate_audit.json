@@ -1,0 +1,58 @@
+{
+  "seed": 20261015,
+  "scope": "New theory diagnostics; separate from frozen manuscript experiment records; not a proof.",
+  "example": {
+    "matrix": [
+      [
+        0.5,
+        1.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "matrix_norm": 1.2071067811865475,
+    "spectral_radius": 0.5,
+    "block_cap": 4,
+    "error_target": 0.02,
+    "residual_lipschitz_bound": 0.001,
+    "majorant": [
+      1.0,
+      1.2271067811865475,
+      1.1077012656224094,
+      0.8432440510572002,
+      0.5926974896616893
+    ],
+    "S_star": 4.178052097866157,
+    "eta_star": 0.31956341628312135,
+    "Gamma_star": 13.074250320833213,
+    "calibration_allocation_terms": [
+      13.13411558396046,
+      172.23632628263502,
+      40.60139052187061
+    ],
+    "replicated_resets": 173,
+    "calibration_transitions": 346,
+    "gain_margin_at_discount_0_95": 0.32417918783464805
+  },
+  "noncommuting_perturbation_inequalities_checked": 4862,
+  "adversarial_residual_trajectory_steps_checked": 80000,
+  "maximum_state_to_certified_bound_ratio": 0.9765971553643757,
+  "replicated_gaussian_diagnostics": {
+    "replications": 1000,
+    "matrix_confidence_coverage_count": 1000,
+    "block_certificate_count": 1000,
+    "one_step_certificate_count": 0,
+    "selected_block_lengths": [
+      4
+    ],
+    "radius_range": [
+      0.002281874747561163,
+      0.0028476928305552
+    ]
+  },
+  "time_two_gain_inequalities_checked": 8000,
+  "large_residual_false_certificate_rejected": true,
+  "all_checks_passed": true
+}

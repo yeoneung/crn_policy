@@ -1,0 +1,103 @@
+{
+  "command": "all",
+  "environment": {
+    "python": "3.11.5",
+    "platform": "darwin",
+    "dependencies": {
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "matplotlib": "3.9.2",
+      "threadpoolctl": "3.5.0",
+      "gymnasium": "1.2.3"
+    }
+  },
+  "input_archive_sha256": "483490e1c13bcc904c4ba1bc0b201bcff8adb061611c81c5b883b56ebf72d3d8",
+  "commands": [
+    {
+      "group": "tests",
+      "args": [
+        "-m",
+        "unittest",
+        "test_variance_replay",
+        "test_coupling_sensitivity",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.578,
+      "log": "logs/tests_1.txt"
+    },
+    {
+      "group": "support",
+      "args": [
+        "reproduce_main_evidence.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.216,
+      "log": "logs/support_1.txt"
+    },
+    {
+      "group": "variance",
+      "args": [
+        "variance_replay.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.093,
+      "log": "logs/variance_1.txt"
+    },
+    {
+      "group": "coupling",
+      "args": [
+        "summarize_coupling_sensitivity.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.224,
+      "log": "logs/coupling_1.txt"
+    },
+    {
+      "group": "coupling",
+      "args": [
+        "audit_coupling_sensitivity.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.635,
+      "log": "logs/coupling_2.txt"
+    },
+    {
+      "group": "pendulum",
+      "args": [
+        "summarize_pendulum_regional.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.351,
+      "log": "logs/pendulum_1.txt"
+    },
+    {
+      "group": "pendulum",
+      "args": [
+        "audit_pendulum_regional.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 6.122,
+      "log": "logs/pendulum_2.txt"
+    },
+    {
+      "group": "pendulum",
+      "args": [
+        "audit_nominal_reference.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.069,
+      "log": "logs/pendulum_3.txt"
+    },
+    {
+      "group": "pendulum",
+      "args": [
+        "audit_oracle_reference.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.501,
+      "log": "logs/pendulum_4.txt"
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,203 @@
+{
+  "scope": "Independent additional study; no training or replacement of original frozen records.",
+  "seed": 20261017,
+  "replicated_resets": 173,
+  "calibration_transitions": 346,
+  "supported_pair_cap": 2048,
+  "ordinary_pair_cap": 2105,
+  "false_adoption_bound_per_decision": 0.05,
+  "one_step_uniform_gates": 0,
+  "finite_power_gates": 24,
+  "selected_block_lengths": [
+    4
+  ],
+  "matrix_radius_range": [
+    0.0023271375612079637,
+    0.002783511881410629
+  ],
+  "rows": [
+    {
+      "action": 0.05,
+      "method": "ordinary",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 304.0,
+      "mean_total_transitions": 1824.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.05,
+      "method": "finite_horizon",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 16.0,
+      "mean_total_transitions": 442.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.05,
+      "method": "finite_power",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 112.0,
+      "mean_total_transitions": 1018.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.05,
+      "method": "robust_model",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.025,
+      "method": "ordinary",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 608.0,
+      "mean_total_transitions": 3648.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.025,
+      "method": "finite_horizon",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 16.0,
+      "mean_total_transitions": 442.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.025,
+      "method": "finite_power",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 112.0,
+      "mean_total_transitions": 1018.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.025,
+      "method": "robust_model",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0125,
+      "method": "ordinary",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 1200.0,
+      "mean_total_transitions": 7200.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0125,
+      "method": "finite_horizon",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 16.0,
+      "mean_total_transitions": 442.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0125,
+      "method": "finite_power",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 112.0,
+      "mean_total_transitions": 1018.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0125,
+      "method": "robust_model",
+      "replications": 24,
+      "adopted": 24,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0,
+      "method": "ordinary",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 2105.0,
+      "mean_total_transitions": 12630.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0,
+      "method": "finite_horizon",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0,
+      "method": "finite_power",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    },
+    {
+      "action": 0.0,
+      "method": "robust_model",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    },
+    {
+      "action": -0.05,
+      "method": "ordinary",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 2105.0,
+      "mean_total_transitions": 12630.0,
+      "support_violations": 0
+    },
+    {
+      "action": -0.05,
+      "method": "finite_horizon",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 2048.0,
+      "mean_total_transitions": 12634.0,
+      "support_violations": 0
+    },
+    {
+      "action": -0.05,
+      "method": "finite_power",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 2048.0,
+      "mean_total_transitions": 12634.0,
+      "support_violations": 0
+    },
+    {
+      "action": -0.05,
+      "method": "robust_model",
+      "replications": 24,
+      "adopted": 0,
+      "mean_pairs": 0.0,
+      "mean_total_transitions": 346.0,
+      "support_violations": 0
+    }
+  ],
+  "controlled_negative_and_zero_action_adoptions": 0,
+  "all_reported_costs_include_calibration": true,
+  "robust_model_uses_true_parameters": false
+}

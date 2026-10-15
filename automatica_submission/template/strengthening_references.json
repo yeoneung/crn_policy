@@ -1,0 +1,86 @@
+{
+  "verified_date": "2026-10-15",
+  "records": [
+    {
+      "key": "zhao2025dataenabled",
+      "authors": [
+        "Feiran Zhao",
+        "Florian Dörfler",
+        "Alessandro Chiuso",
+        "Keyou You"
+      ],
+      "title": "Data-Enabled Policy Optimization for Direct Adaptive Learning of the LQR",
+      "year": 2025,
+      "journal": "IEEE Transactions on Automatic Control",
+      "volume": 70,
+      "number": 11,
+      "pages": "7217–7232",
+      "doi": "10.1109/TAC.2025.3569597",
+      "primary_metadata": [
+        "https://feiranzhao.github.io/publications/",
+        "https://ieeecss.org/sites/ieeecss/files/documents/pcd/css_publications_content_digest_112025.pdf"
+      ],
+      "primary_text": "https://arxiv.org/html/2401.14871v4",
+      "relation": "Policy construction and non-asymptotic data efficiency; distinguished from post-training gain certification."
+    },
+    {
+      "key": "dorfler2023bridging",
+      "authors": [
+        "Florian Dörfler",
+        "Jeremy Coulson",
+        "Ivan Markovsky"
+      ],
+      "title": "Bridging Direct and Indirect Data-Driven Control Formulations via Regularizations and Relaxations",
+      "year": 2023,
+      "journal": "IEEE Transactions on Automatic Control",
+      "volume": 68,
+      "number": 2,
+      "pages": "883–897",
+      "doi": "10.1109/TAC.2022.3148374",
+      "primary_metadata": [
+        "https://ieeexplore.ieee.org/document/9705109/",
+        "https://www.research-collection.ethz.ch/entities/publication/ff40b706-204b-4c30-a7b2-739cba07488a"
+      ],
+      "note": "2022 online publication; 2023 volume/issue year retained.",
+      "relation": "Roles of identification/model information and control objectives."
+    },
+    {
+      "key": "tu2022sample",
+      "title": "On the Sample Complexity of Stability Constrained Imitation Learning",
+      "authors": [
+        "Stephen Tu",
+        "Alexander Robey",
+        "Tingnan Zhang",
+        "Nikolai Matni"
+      ],
+      "year": 2022,
+      "volume": 168,
+      "pages": "180–191",
+      "publisher": "PMLR",
+      "primary_metadata": [
+        "https://proceedings.mlr.press/v168/tu22a.html"
+      ],
+      "relation": "Prior stability-dependent learning sample complexity; different target from frozen-update gain verification."
+    },
+    {
+      "key": "zhang2022adversarial",
+      "title": "Adversarially Robust Stability Certificates can be Sample-Efficient",
+      "authors": [
+        "Thomas Zhang",
+        "Stephen Tu",
+        "Nicholas Boffi",
+        "Jean-Jacques Slotine",
+        "Nikolai Matni"
+      ],
+      "year": 2022,
+      "volume": 168,
+      "pages": "532–545",
+      "publisher": "PMLR",
+      "primary_metadata": [
+        "https://proceedings.mlr.press/v168/zhang22a.html"
+      ],
+      "relation": "Prior statistical costs of learning robust stability certificates; acknowledged rather than claimed new."
+    }
+  ],
+  "formatting": "Conference venues abbreviated consistently; author/title/year/pages/DOI identities retained. Redundant URLs removed where DOI or full book identification suffices."
+}

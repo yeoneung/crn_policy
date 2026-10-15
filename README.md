@@ -1,3 +1,59 @@
+# Current Automatica manuscript and code
+
+**Control Sensitivity and the Cost of Certifying Small Policy Improvements**
+Kyunghyun Lee and Yeoneung Kim
+
+The current 12-page manuscript, finite-power certification implementation,
+model-based gain reference, tests and additional experiment records are in
+[`automatica_submission/`](automatica_submission/).
+See the [paper](automatica_submission/main.pdf) and
+[code and reproduction guide](automatica_submission/CODE_README.md).
+Tables 1--2 retain the original frozen experiments below; Table 3 is the
+additional finite-power study with 24 independent calibration/validation
+replications of one nonnormal plant. The additional study's reset arrays,
+return banks and development records are tracked in this repository.
+
+For a Git checkout, install Python 3.11 dependencies and retrieve the unchanged
+original recorded-data release once before verifying the full package:
+
+```sh
+cd automatica_submission
+python -m venv .venv
+# macOS/Linux:
+source .venv/bin/activate
+# Windows PowerShell instead: .\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python download_recorded_data.py
+python reproduce.py verify
+python reproduce.py quick
+python reproduce.py all
+```
+
+`download_recorded_data.py` uses the existing release URL and verifies its
+recorded size and SHA-256; it supplies the original approximately 291 MB
+archive under `reproducibility/crn_policy/data/`. It does not replace any
+observations. The offline submission ZIP already includes that archive and
+does not require the download step. After dependencies and recorded data are
+installed, reproduction needs no network access. The checksum manifest covers
+the submission payload; the small Git-checkout download helper is additional.
+
+The full reproduction command checks 31 tests, all three manuscript result
+tables, the original replay groups and the additional finite-power study.
+It replays retained observations and runs targeted fresh simulator checks;
+it does not retrain all original policies. To reconstruct a self-contained
+code/data ZIP locally, run `python package_code.py` after the download.
+
+## Download the self-contained submission package
+
+The [Automatica submission release](https://github.com/yeoneung/crn_policy/releases/tag/automatica-submission-2026-10-15)
+provides `Automatica_code.zip` (approximately 296 MB), including the current
+manuscript and all recorded data, plus its SHA-256 checksum. Extract it and
+follow `CODE_README.md`; no separate data download is needed for that ZIP.
+
+## Original frozen experiment artifact
+
+The original files and commands below remain available at the repository root.
+
 # CRN policy experiments
 
 Simulation and replay tools for comparing small policy repairs with **common random numbers (CRN)**. The experiments separate noise coupling from the support bound supplied to a sequential test.

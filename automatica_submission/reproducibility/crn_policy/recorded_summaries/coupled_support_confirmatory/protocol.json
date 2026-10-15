@@ -1,0 +1,46 @@
+{
+  "dimensions": [
+    4,
+    8,
+    16
+  ],
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "radii": [
+    0.05,
+    0.15
+  ],
+  "budgets": [
+    5120,
+    20480,
+    81920
+  ],
+  "caps": [
+    128,
+    512,
+    2048,
+    4096
+  ],
+  "alpha": 8.680555555555556e-05,
+  "ridge": 0.1,
+  "ars_step": 0.01,
+  "ars_noise": 0.1,
+  "ars_directions": 4,
+  "ars_episodes": 4,
+  "final_episodes": 4096,
+  "certification_episodes": 4096,
+  "primary": {
+    "method": "Ridge",
+    "d": 0.05,
+    "budget": 81920,
+    "cap": 512
+  }
+}

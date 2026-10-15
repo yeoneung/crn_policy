@@ -1,0 +1,41 @@
+{
+  "scope": "Expository flow review after finite-power extension; no mathematical or numerical changes.",
+  "source_sha256_before": "4117524e8d91b97637207bf553f8c400d8604595486f4f41161bdceed44ed13f",
+  "source_sha256_after": "f72f56d8e9ed193d0100835cc19719b00cdb91d0e96732e1b4fb13af9bc0f4b4",
+  "formal_statements_and_proofs_preserved_verbatim": true,
+  "formal_statement_count": 8,
+  "proof_count": 8,
+  "all_labels_preserved": true,
+  "unchanged_inputs": {
+    "ref.bib": true,
+    "autart.cls": true,
+    "elsarticle-harv.bst": true,
+    "certification_mechanism.pdf": true,
+    "reproducibility/crn_policy/data/crn_policy_experiment_data.zip": true,
+    "certification/finite_power.py": true,
+    "examples/nonnormal_certificate.py": true,
+    "tests/test_finite_power.py": true
+  },
+  "all_python_sources_unchanged": true,
+  "python_source_files": 46,
+  "abstract_words_before": 180,
+  "abstract_words_after": 177,
+  "introduction_words_before": 620,
+  "introduction_words_after": 616,
+  "main_text_words_before": 5285,
+  "main_text_words_after": 5226,
+  "changes": [
+    "Problem and central answer both appear in the first two introduction paragraphs.",
+    "Abstract follows verification cost, support information, acquisition and evidence; secondary horizon claims remain in the body.",
+    "Scalar envelope explanation separates fixed-horizon validity from uniform-in-time control.",
+    "Finite-power ratio is explained before the uniform envelope theorem.",
+    "Total-cost subsection motivates fixed accuracy before introducing perturbation constants.",
+    "One-step special-case calculation moved intact in substance to Appendix A.2.",
+    "Regional power explanation and experiment introductions lose repeated qualifications; scope section retains limitations."
+  ],
+  "remaining_reading_load": "Section 4.2 remains the technical core; readers must track confidence levels, accuracy target and robust margin.",
+  "layout": "Two-column class unchanged; 12 pages; all pages visually checked with focused checks of opening and main theorem pages.",
+  "pages": 12,
+  "new_experiments_or_tests_needed": false,
+  "reason": "All research and runner code, formal statements, proofs, references and numerical data remain unchanged."
+}

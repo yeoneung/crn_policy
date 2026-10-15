@@ -1,0 +1,17 @@
+test_bernstein_matches_independent_scalar_recursion (test_variance_replay.ReplayTests.test_bernstein_matches_independent_scalar_recursion) ... ok
+test_constant_law_cannot_beat_uniform_range_lower_bound (test_variance_replay.ReplayTests.test_constant_law_cannot_beat_uniform_range_lower_bound) ... ok
+test_mixture_matches_original_each_prefix_and_endpoint (test_variance_replay.ReplayTests.test_mixture_matches_original_each_prefix_and_endpoint) ... ok
+test_predictability_and_suffix_invariance (test_variance_replay.ReplayTests.test_predictability_and_suffix_invariance) ... ok
+test_stochastic_example_has_actual_noise_cancellation (test_variance_replay.ReplayTests.test_stochastic_example_has_actual_noise_cancellation) ... ok
+test_support_violation_is_an_error (test_variance_replay.ReplayTests.test_support_violation_is_an_error) ... ok
+test_baseline_crn_stream_and_reference_exactly_match_original_evaluator (test_coupling_sensitivity.GeometryChecks.test_baseline_crn_stream_and_reference_exactly_match_original_evaluator) ... ok
+test_direction_preserved_and_chord_scaled_when_uncapped (test_coupling_sensitivity.GeometryChecks.test_direction_preserved_and_chord_scaled_when_uncapped) ... ok
+test_independent_no_repair_has_noise_while_crn_is_zero (test_coupling_sensitivity.GeometryChecks.test_independent_no_repair_has_noise_while_crn_is_zero) ... ok
+test_no_repair_stays_no_repair (test_coupling_sensitivity.GeometryChecks.test_no_repair_stays_no_repair) ... ok
+test_preserves_radius_and_global_chord_constraint (test_coupling_sensitivity.GeometryChecks.test_preserves_radius_and_global_chord_constraint) ... ok
+test_reference_recovers_exact_frozen_policy (test_coupling_sensitivity.GeometryChecks.test_reference_recovers_exact_frozen_policy) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.348s
+
+OK

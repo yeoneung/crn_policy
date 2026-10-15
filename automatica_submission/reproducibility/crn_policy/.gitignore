@@ -1,0 +1,19 @@
+# Local environments and generated runs
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+runs/
+dist/
+tmp/
+# Raw banks are distributed as a separate release asset.
+data/*.zip
+data/*.zip.part
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+.idea/
+.vscode/

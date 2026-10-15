@@ -1,0 +1,68 @@
+{
+  "frozen_utc": "2026-09-28T01:32:18.185760+00:00",
+  "status": "Prospective new return streams on previously studied fixed plants/policies; ell analysis reuses prior calibration and returns",
+  "dimensions": [
+    4,
+    8,
+    16
+  ],
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "displacements": [
+    0.0125,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "reference_displacement": 0.05,
+  "policies": "Original Ridge_d0.05_b81920 checkpoint, unmodified; fixed direction field with chord-scaled spherical interpolation/extrapolation and original 0.8-radian cap",
+  "no_change": "Original baseline choices remain baseline; do not force full d where the source policy uses less",
+  "fresh_banks": {
+    "certification": 960100,
+    "evaluation": 960200,
+    "independent_branch": "bank+1"
+  },
+  "episodes_per_bank": 4096,
+  "batch": 128,
+  "independent_condition": "Independent initial state AND process disturbance for replacement, same marginal laws; reuse the common branch's baseline for computational efficiency",
+  "allocation": "Every evaluated comparison is charged 2*H=80 transitions per pair; unique simulator work also reported separately",
+  "tests": [
+    "fixed_mixture",
+    "predictable_empirical_bernstein"
+  ],
+  "caps": [
+    512,
+    4096
+  ],
+  "check_every": 16,
+  "positive_tail_alpha": 9.46969696969697e-05,
+  "simultaneous_scope": "0.05 positive-tail union bound over 528 distinct fresh-stream tests: 24*(5 radii*2 supports*2 tests + independent ordinary*2 tests); caps are nested optional stopping, not new tests. Negative-label error separate. This does not cover the entire historical manuscript.",
+  "slopes": "log-log fit for mean consumed pairs over all plants, explicitly cap-truncated; never fit successful plants alone as an uncensored rate. Show cap fractions and gain/d separately. Reference slopes 0 and -1 are guides, not guaranteed finite-sample outcomes.",
+  "evaluation": "Gain/d and gain/d-squared variance scaling from independent evaluation bank, not the certification bank",
+  "ell": {
+    "factors": [
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "true_residual_lipschitz": 0.005,
+    "calibration_prefix": 2048,
+    "calibration_alpha": 0.00034722222222222224,
+    "return_alpha": 1.4467592592592593e-05,
+    "return_bank": "Original certification stream; original independent evaluation for gain. Fresh reference-policy state traces provide an additional pathwise audit only.",
+    "unavailable_contraction": "Use ordinary range, retaining calibration cost; no invented contraction bound",
+    "checks": "Assumption violation (true residual norm is exactly .005), bound versus analytic closed-loop upper bound and origin Jacobian lower witness, old/fresh return violation counts, old maximal state-time violations, fresh per-episode/per-time violations",
+    "interpretation": "ell<true invalidates the stated premise but need not produce any empirical envelope violation; ell>=true conservatism preserves the premise. No empirical count proves global validity."
+  }
+}

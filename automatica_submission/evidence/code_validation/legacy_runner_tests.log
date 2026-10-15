@@ -1,0 +1,9 @@
+test_existing_workspace_is_not_overwritten (test_runner.RunnerTests.test_existing_workspace_is_not_overwritten) ... ok
+test_frozen_manifest_matches_repository (test_runner.RunnerTests.test_frozen_manifest_matches_repository) ... Verified 40 frozen inputs.
+ok
+test_rejects_archive_paths_outside_workspace (test_runner.RunnerTests.test_rejects_archive_paths_outside_workspace) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK

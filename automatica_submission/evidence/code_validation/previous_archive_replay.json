@@ -1,0 +1,118 @@
+{
+  "command": "all",
+  "python": "3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]",
+  "platform": "darwin",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "matplotlib": "3.9.2",
+    "threadpoolctl": "3.5.0",
+    "gymnasium": "1.2.3",
+    "pypdf": "6.12.0"
+  },
+  "commands": [
+    {
+      "label": "frozen_integrity",
+      "arguments": [
+        "reproduce.py",
+        "verify"
+      ],
+      "exit_code": 0,
+      "log": "frozen_integrity.log"
+    },
+    {
+      "label": "finite_power_tests",
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "finite_power_tests.log"
+    },
+    {
+      "label": "legacy_runner_tests",
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "legacy_runner_tests.log"
+    },
+    {
+      "label": "finite_power_stress",
+      "arguments": [
+        "audit_matrix_certificate.py",
+        "--output",
+        "/private/var/folders/jb/2gq94szn31n2jhyb2kx2cf_m0000gn/T/automatica-final-package-check-9am6yxze/run/evidence/matrix_certificate_audit.json"
+      ],
+      "exit_code": 0,
+      "log": "finite_power_stress.log"
+    },
+    {
+      "label": "finite_power_example",
+      "arguments": [
+        "-m",
+        "examples.nonnormal_certificate",
+        "--output",
+        "/private/var/folders/jb/2gq94szn31n2jhyb2kx2cf_m0000gn/T/automatica-final-package-check-9am6yxze/run/finite_power_example.json"
+      ],
+      "exit_code": 0,
+      "log": "finite_power_example.log"
+    },
+    {
+      "label": "manuscript_tables",
+      "arguments": [
+        "audit_evidence.py",
+        "--output",
+        "/private/var/folders/jb/2gq94szn31n2jhyb2kx2cf_m0000gn/T/automatica-final-package-check-9am6yxze/run/evidence/numerical_audit.json"
+      ],
+      "exit_code": 0,
+      "log": "manuscript_tables.log"
+    },
+    {
+      "label": "manuscript_figure",
+      "arguments": [
+        "make_figure.py",
+        "--output-dir",
+        "/private/var/folders/jb/2gq94szn31n2jhyb2kx2cf_m0000gn/T/automatica-final-package-check-9am6yxze/run/figure"
+      ],
+      "exit_code": 0,
+      "log": "manuscript_figure.log"
+    },
+    {
+      "label": "legacy_all",
+      "arguments": [
+        "reproduce.py",
+        "all",
+        "--work-dir",
+        "/private/var/folders/jb/2gq94szn31n2jhyb2kx2cf_m0000gn/T/automatica-final-package-check-9am6yxze/run/legacy-all"
+      ],
+      "exit_code": 0,
+      "log": "legacy_all.log"
+    }
+  ],
+  "status": "passed",
+  "scope": "Fresh finite-power demonstration plus replay, not full benchmark retraining.",
+  "archive": "/Users/yeon/Dropbox/RL_semigroup/automatica_submission/output/Automatica_code.zip",
+  "archive_bytes": 291850232,
+  "archive_sha256": "910a51c63265b6def6f2c93de8063d331b63f7b9446dee089fbbd127f14179cd",
+  "archive_members": 141,
+  "isolated_extraction_all_passed": true,
+  "package_payload_unchanged_after_replay": true,
+  "self_contained_recorded_data": true,
+  "external_downloads_during_replay": false,
+  "tex_files": [
+    "main.tex"
+  ],
+  "bib_files": [
+    "ref.bib"
+  ]
+}

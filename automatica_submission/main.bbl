@@ -1,0 +1,137 @@
+\begin{thebibliography}{22}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Angeli(2002)}]{angeli2002incremental}
+\bibinfo{author}{Angeli, D.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{A {L}yapunov approach to incremental stability properties}.
+\newblock \bibinfo{journal}{IEEE Trans. Autom. Control} \bibinfo{volume}{47}, \bibinfo{pages}{410--421}.
+\newblock \DOIprefix\doi{10.1109/9.989067}.
+%Type = Inproceedings
+\bibitem[{Asadi et~al.(2018)Asadi, Misra and Littman}]{asadi2018lipschitz}
+\bibinfo{author}{Asadi, K.}, \bibinfo{author}{Misra, D.}, \bibinfo{author}{Littman, M.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{L}ipschitz continuity in model-based reinforcement learning}, in: \bibinfo{booktitle}{Proc. 35th Int. Conf. Mach. Learn.}, \bibinfo{publisher}{PMLR}. pp. \bibinfo{pages}{264--273}.
+\newblock \URLprefix \url{https://proceedings.mlr.press/v80/asadi18a.html}.
+%Type = Article
+\bibitem[{Clopper and Pearson(1934)}]{clopper1934use}
+\bibinfo{author}{Clopper, C.J.}, \bibinfo{author}{Pearson, E.S.}, \bibinfo{year}{1934}.
+\newblock \bibinfo{title}{The use of confidence or fiducial limits illustrated in the case of the binomial}.
+\newblock \bibinfo{journal}{Biometrika} \bibinfo{volume}{26}, \bibinfo{pages}{404--413}.
+\newblock \DOIprefix\doi{10.1093/biomet/26.4.404}.
+%Type = Article
+\bibitem[{D{\"o}rfler et~al.(2023)D{\"o}rfler, Coulson and Markovsky}]{dorfler2023bridging}
+\bibinfo{author}{D{\"o}rfler, F.}, \bibinfo{author}{Coulson, J.}, \bibinfo{author}{Markovsky, I.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Bridging direct and indirect data-driven control formulations via regularizations and relaxations}.
+\newblock \bibinfo{journal}{IEEE Trans. Autom. Control} \bibinfo{volume}{68}, \bibinfo{pages}{883--897}.
+\newblock \DOIprefix\doi{10.1109/TAC.2022.3148374}.
+%Type = Book
+\bibitem[{Doyle et~al.(1992)Doyle, Francis and Tannenbaum}]{doyle1992feedback}
+\bibinfo{author}{Doyle, J.C.}, \bibinfo{author}{Francis, B.A.}, \bibinfo{author}{Tannenbaum, A.R.}, \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{Feedback Control Theory}.
+\newblock \bibinfo{publisher}{Macmillan}, \bibinfo{address}{New York}.
+%Type = Article
+\bibitem[{Gatsis and Pappas(2021)}]{gatsis2021statistical}
+\bibinfo{author}{Gatsis, K.}, \bibinfo{author}{Pappas, G.J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Statistical learning for analysis of networked control systems over unknown channels}.
+\newblock \bibinfo{journal}{Automatica} \bibinfo{volume}{125}, \bibinfo{pages}{109386}.
+\newblock \DOIprefix\doi{10.1016/j.automatica.2020.109386}.
+%Type = Article
+\bibitem[{Glasserman and Yao(1992)}]{glasserman1992guidelines}
+\bibinfo{author}{Glasserman, P.}, \bibinfo{author}{Yao, D.D.}, \bibinfo{year}{1992}.
+\newblock \bibinfo{title}{Some guidelines and guarantees for common random numbers}.
+\newblock \bibinfo{journal}{Management Science} \bibinfo{volume}{38}, \bibinfo{pages}{884--908}.
+\newblock \DOIprefix\doi{10.1287/mnsc.38.6.884}.
+%Type = Article
+\bibitem[{Hoeffding(1963)}]{hoeffding1963probability}
+\bibinfo{author}{Hoeffding, W.}, \bibinfo{year}{1963}.
+\newblock \bibinfo{title}{Probability inequalities for sums of bounded random variables}.
+\newblock \bibinfo{journal}{Journal of the American Statistical Association} \bibinfo{volume}{58}, \bibinfo{pages}{13--30}.
+\newblock \DOIprefix\doi{10.1080/01621459.1963.10500830}.
+%Type = Inproceedings
+\bibitem[{Johannink et~al.(2019)Johannink, Bahl, Nair, Luo, Kumar, Loskyll, Ojea, Solowjow and Levine}]{johannink2018residual}
+\bibinfo{author}{Johannink, T.}, \bibinfo{author}{Bahl, S.}, \bibinfo{author}{Nair, A.}, \bibinfo{author}{Luo, J.}, \bibinfo{author}{Kumar, A.}, \bibinfo{author}{Loskyll, M.}, \bibinfo{author}{Ojea, J.A.}, \bibinfo{author}{Solowjow, E.}, \bibinfo{author}{Levine, S.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Residual reinforcement learning for robot control}, in: \bibinfo{booktitle}{Proc. IEEE Int. Conf. Robot. Autom.}, \bibinfo{publisher}{IEEE}. pp. \bibinfo{pages}{6023--6029}.
+\newblock \DOIprefix\doi{10.1109/ICRA.2019.8794127}.
+%Type = Article
+\bibitem[{Laurent and Massart(2000)}]{laurent2000adaptive}
+\bibinfo{author}{Laurent, B.}, \bibinfo{author}{Massart, P.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Adaptive estimation of a quadratic functional by model selection}.
+\newblock \bibinfo{journal}{Ann. Statist.} \bibinfo{volume}{28}, \bibinfo{pages}{1302--1338}.
+\newblock \DOIprefix\doi{10.1214/aos/1015957395}.
+%Type = Inproceedings
+\bibitem[{Mnih et~al.(2008)Mnih, Szepesv{\'a}ri and Audibert}]{mnih2008stopping}
+\bibinfo{author}{Mnih, V.}, \bibinfo{author}{Szepesv{\'a}ri, C.}, \bibinfo{author}{Audibert, J.Y.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Empirical {B}ernstein stopping}, in: \bibinfo{booktitle}{Proc. 25th Int. Conf. Mach. Learn.}, \bibinfo{publisher}{ACM Press}. pp. \bibinfo{pages}{672--679}.
+\newblock \DOIprefix\doi{10.1145/1390156.1390241}.
+%Type = Inproceedings
+\bibitem[{Ng and Jordan(2000)}]{ng2000pegasus}
+\bibinfo{author}{Ng, A.Y.}, \bibinfo{author}{Jordan, M.I.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{{PEGASUS}: A policy search method for large {MDPs} and {POMDPs}}, in: \bibinfo{booktitle}{Proc. 16th Conf. Uncertain. Artif. Intell.}, \bibinfo{publisher}{Morgan Kaufmann}. pp. \bibinfo{pages}{406--415}.
+\newblock \URLprefix \url{https://ai.stanford.edu/~ang/papers/uai00-pegasus.pdf}.
+%Type = Article
+\bibitem[{Pirotta et~al.(2015)Pirotta, Restelli and Bascetta}]{pirotta2015lipschitz}
+\bibinfo{author}{Pirotta, M.}, \bibinfo{author}{Restelli, M.}, \bibinfo{author}{Bascetta, L.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Policy gradient in {L}ipschitz {M}arkov decision processes}.
+\newblock \bibinfo{journal}{Mach. Learn.} \bibinfo{volume}{100}, \bibinfo{pages}{255--283}.
+\newblock \DOIprefix\doi{10.1007/s10994-015-5484-1}.
+%Type = Inproceedings
+\bibitem[{Pirotta et~al.(2013)Pirotta, Restelli, Pecorino and Calandriello}]{pirotta2013safe}
+\bibinfo{author}{Pirotta, M.}, \bibinfo{author}{Restelli, M.}, \bibinfo{author}{Pecorino, A.}, \bibinfo{author}{Calandriello, D.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Safe policy iteration}, in: \bibinfo{booktitle}{Proc. 30th Int. Conf. Mach. Learn.}, \bibinfo{publisher}{PMLR}. pp. \bibinfo{pages}{307--315}.
+\newblock \URLprefix \url{https://proceedings.mlr.press/v28/pirotta13.html}.
+%Type = Article
+\bibitem[{Strens and Moore(2002)}]{strens2002paired}
+\bibinfo{author}{Strens, M.J.A.}, \bibinfo{author}{Moore, A.W.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Policy search using paired comparisons}.
+\newblock \bibinfo{journal}{J. Mach. Learn. Res.} \bibinfo{volume}{3}, \bibinfo{pages}{921--950}.
+\newblock \URLprefix \url{https://www.jmlr.org/papers/v3/strens02a.html}.
+%Type = Article
+\bibitem[{Szentp{\'e}teri and Cs{\'a}ji(2023)}]{szentpeteri2023nonasymptotic}
+\bibinfo{author}{Szentp{\'e}teri, S.}, \bibinfo{author}{Cs{\'a}ji, B.C.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Non-asymptotic state-space identification of closed-loop stochastic linear systems using instrumental variables}.
+\newblock \bibinfo{journal}{Systems \& Control Letters} \bibinfo{volume}{178}, \bibinfo{pages}{105565}.
+\newblock \DOIprefix\doi{10.1016/j.sysconle.2023.105565}.
+%Type = Inproceedings
+\bibitem[{Thomas et~al.(2015)Thomas, Theocharous and Ghavamzadeh}]{thomas2015high}
+\bibinfo{author}{Thomas, P.}, \bibinfo{author}{Theocharous, G.}, \bibinfo{author}{Ghavamzadeh, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{High confidence policy improvement}, in: \bibinfo{booktitle}{Proc. 32nd Int. Conf. Mach. Learn.}, \bibinfo{publisher}{PMLR}. pp. \bibinfo{pages}{2380--2388}.
+\newblock \URLprefix \url{https://proceedings.mlr.press/v37/thomas15.html}.
+%Type = Inproceedings
+\bibitem[{Tu et~al.(2022)Tu, Robey, Zhang and Matni}]{tu2022sample}
+\bibinfo{author}{Tu, S.}, \bibinfo{author}{Robey, A.}, \bibinfo{author}{Zhang, T.}, \bibinfo{author}{Matni, N.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{On the sample complexity of stability constrained imitation learning}, in: \bibinfo{booktitle}{Proc. 4th Learn. Dyn. Control Conf.}, \bibinfo{publisher}{PMLR}. pp. \bibinfo{pages}{180--191}.
+\newblock \URLprefix \url{https://proceedings.mlr.press/v168/tu22a.html}.
+%Type = Incollection
+\bibitem[{Vershynin(2012)}]{vershynin2012introduction}
+\bibinfo{author}{Vershynin, R.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Introduction to the non-asymptotic analysis of random matrices}, in: \bibinfo{editor}{Eldar, Y.C.}, \bibinfo{editor}{Kutyniok, G.} (Eds.), \bibinfo{booktitle}{Compressed Sensing: Theory and Applications}. \bibinfo{publisher}{Cambridge University Press}, pp. \bibinfo{pages}{210--268}.
+\newblock \DOIprefix\doi{10.1017/CBO9780511794308.006}.
+%Type = Article
+\bibitem[{Waudby-Smith and Ramdas(2024)}]{waudbysmith2024betting}
+\bibinfo{author}{Waudby-Smith, I.}, \bibinfo{author}{Ramdas, A.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Estimating means of bounded random variables by betting}.
+\newblock \bibinfo{journal}{J. R. Stat. Soc. Ser. B Stat. Methodol.} \bibinfo{volume}{86}, \bibinfo{pages}{1--27}.
+\newblock \DOIprefix\doi{10.1093/jrsssb/qkad009}.
+%Type = Inproceedings
+\bibitem[{Zhang et~al.(2022)Zhang, Tu, Boffi, Slotine and Matni}]{zhang2022adversarial}
+\bibinfo{author}{Zhang, T.}, \bibinfo{author}{Tu, S.}, \bibinfo{author}{Boffi, N.}, \bibinfo{author}{Slotine, J.J.}, \bibinfo{author}{Matni, N.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Adversarially robust stability certificates can be sample-efficient}, in: \bibinfo{booktitle}{Proc. 4th Learn. Dyn. Control Conf.}, \bibinfo{publisher}{PMLR}. pp. \bibinfo{pages}{532--545}.
+\newblock \URLprefix \url{https://proceedings.mlr.press/v168/zhang22a.html}.
+%Type = Article
+\bibitem[{Zhao et~al.(2025)Zhao, D{\"o}rfler, Chiuso and You}]{zhao2025dataenabled}
+\bibinfo{author}{Zhao, F.}, \bibinfo{author}{D{\"o}rfler, F.}, \bibinfo{author}{Chiuso, A.}, \bibinfo{author}{You, K.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Data-enabled policy optimization for direct adaptive learning of the {LQR}}.
+\newblock \bibinfo{journal}{IEEE Trans. Autom. Control} \bibinfo{volume}{70}, \bibinfo{pages}{7217--7232}.
+\newblock \DOIprefix\doi{10.1109/TAC.2025.3569597}.
+
+\end{thebibliography}

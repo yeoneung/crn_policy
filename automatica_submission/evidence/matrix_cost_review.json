@@ -1,0 +1,70 @@
+{
+  "extension": "Finite-power calibrated support and its acquisition cost",
+  "formal_results": 8,
+  "classical_small_gain_acknowledged": true,
+  "five_unmodified_core_proofs": "range barrier, pathwise support, sharp example, finite-horizon matrix envelope, regional correction",
+  "new_control_claims": [
+    "Uniform-in-time state difference from one matrix-confidence event",
+    "Data-dependent block selection without an additional failure allocation",
+    "Explicit finite replicated-reset budget with matrix-accuracy target",
+    "All Schur-stable linear baselines admit a finite cap and positive target",
+    "Uniform pair budget over finite horizons under fixed discount and a common gain margin"
+  ],
+  "limitations": [
+    "Known global residual bound and independent Gaussian reset replicates remain assumptions",
+    "Positive robust margin required when nonlinear residual is present",
+    "Sufficient allocation requires bounds on noise, geometry and gain margin",
+    "Total transitions remain linear in horizon under a horizon-uniform pair budget"
+  ],
+  "example": {
+    "matrix": [
+      [
+        0.5,
+        1.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "matrix_norm": 1.2071067811865475,
+    "spectral_radius": 0.5,
+    "block_cap": 4,
+    "error_target": 0.02,
+    "residual_lipschitz_bound": 0.001,
+    "majorant": [
+      1.0,
+      1.2271067811865475,
+      1.1077012656224094,
+      0.8432440510572002,
+      0.5926974896616893
+    ],
+    "S_star": 4.178052097866157,
+    "eta_star": 0.31956341628312135,
+    "Gamma_star": 13.074250320833213,
+    "calibration_allocation_terms": [
+      13.13411558396046,
+      172.23632628263502,
+      40.60139052187061
+    ],
+    "replicated_resets": 173,
+    "calibration_transitions": 346,
+    "gain_margin_at_discount_0_95": 0.32417918783464805
+  },
+  "one_step_special_case_checked": true,
+  "old_one_step_93_constant_remains_sufficient": true,
+  "standard_reference_added": "Doyle, Francis and Tannenbaum, Feedback Control Theory, Macmillan, 1992; author publication record and primary full text checked",
+  "previous_17_references_unchanged": true,
+  "proof_review": [
+    "Noncommutative telescoping identity",
+    "Finite-window small-gain rearrangement before taking arbitrary horizons",
+    "Minimum over all eligible blocks includes the useful cap",
+    "Matrix coverage at delta/4 versus usefulness failure at delta",
+    "True matrix itself supplies the ordinary-range mean upper bound",
+    "Componentwise monotonicity and Gaussian event bound in the analytic example"
+  ],
+  "numeric_diagnostics": "matrix_certificate_audit.json",
+  "layout_pages": 12,
+  "original_frozen_numerical_claims_rechecked": true,
+  "separate_diagnostic_checks_passed": true
+}

@@ -1,0 +1,13 @@
+# Do not normalize byte-preserved files: their SHA-256 values are research inputs.
+frozen/** -text
+recorded_summaries/** -text
+third_party_licenses/** -text
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.cff text eol=lf
+# Last matching rule wins over the extension rules above.
+frozen/** -text
+recorded_summaries/** -text
+third_party_licenses/** -text

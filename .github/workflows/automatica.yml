@@ -1,0 +1,19 @@
+name: Automatica extension checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: automatica_submission
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: automatica_submission/requirements.txt
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - run: python audit_finite_power_study.py --output ../ci-automatica/audit.json
+      - run: python -m examples.finite_power_study --replay-from evidence/finite_power_study --output-dir ../ci-automatica/replay

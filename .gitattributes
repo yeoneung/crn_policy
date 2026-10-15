@@ -11,3 +11,6 @@ third_party_licenses/** -text
 frozen/** -text
 recorded_summaries/** -text
 third_party_licenses/** -text
+
+# Preserve the submission manifest and frozen bytes on every platform.
+automatica_submission/** -text
