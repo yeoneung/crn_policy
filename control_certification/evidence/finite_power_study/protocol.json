@@ -1,0 +1,71 @@
+{
+  "study": "Finite-power acquisition, validation and model-based reference",
+  "scope": "Independent additional study; no training or replacement of original frozen records.",
+  "seed": 20261017,
+  "replications": 24,
+  "development": {
+    "seeds": [
+      20261015,
+      20261016
+    ],
+    "amendments": [
+      "Tighten the ordinary marginal range to 2*(gamma+gamma^2), since the known initial reward is zero.",
+      "Rename the summary error-level field to false_adoption_bound_per_decision; no test or threshold change."
+    ],
+    "confirmation": "Final seed is disjoint from development; all final replications are retained."
+  },
+  "actions": [
+    0.05,
+    0.025,
+    0.0125,
+    0.0,
+    -0.05
+  ],
+  "matrix": [
+    [
+      0.5,
+      1.0
+    ],
+    [
+      0.0,
+      0.5
+    ]
+  ],
+  "residual": ".001*tanh(x)",
+  "residual_lip": 0.001,
+  "actuator": [
+    [
+      0.0
+    ],
+    [
+      1.0
+    ]
+  ],
+  "reward": "tanh(x1)",
+  "initial_state": [
+    0.0,
+    0.0
+  ],
+  "horizon": 3,
+  "discount": 0.95,
+  "noise_sigma_for_simulation_and_budget_analysis_only": 0.005,
+  "reset_scale": 1.0,
+  "matrix_accuracy_target_for_analysis": 0.02,
+  "block_cap": 4,
+  "allocation_delta": 0.05,
+  "matrix_failure_probability": 0.0125,
+  "conditional_validation_level": 0.0375,
+  "ordinary_validation_level": 0.05,
+  "model_reference_noise_failure_probability": 0.0375,
+  "supported_pair_cap": 2048,
+  "inspection_interval": 16,
+  "family_error_control": "0.05 per adoption decision; no joint family-wise claim across methods, actions or replications.",
+  "bank_reuse": "Methods and actions share validation noises within a replication; independent reset/validation streams and independent replications.",
+  "stopping": "Fixed eight-stake mixture; no futility stopping; retain baseline on censoring or support violation.",
+  "implementation_sha256": {
+    "examples/finite_power_study.py": "507e814c2586cf484bc6183bc70fc561c0ee0f507ddf3cf9077ff34f1d20b0fe",
+    "certification/finite_power.py": "79de5c811e2d78eb76124c81635a342dc4c71a95ae63aa9c124540c793e46e74",
+    "certification/model_reference.py": "5664d2355e5677eaa2b3cd55b9879a99b54be818156ade972144b079a7baf7aa",
+    "certification/sequential.py": "476c46fe80512daf11bfc0a16c23892f604f1f3fa106eaa11d24556c030fd884"
+  }
+}

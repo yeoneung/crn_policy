@@ -1,0 +1,1 @@
+Development diagnostics only; not the final study. The final protocol tightens the ordinary marginal range using the known zero initial reward and uses a disjoint master seed. Historical implementation hashes describe the earlier code revision.

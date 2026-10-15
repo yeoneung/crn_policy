@@ -1,23 +1,17 @@
-# Current Automatica manuscript and code
+# Control certification code and data
 
-**Control Sensitivity and the Cost of Certifying Small Policy Improvements**
-Kyunghyun Lee and Yeoneung Kim
+Finite-power sensitivity bounds, paired-return verification and replicated
+transition calibration are in [`control_certification/`](control_certification/).
+See the [implementation and reproduction guide](control_certification/CODE_README.md).
+The code compares ordinary ranges, finite-horizon envelopes, uniform block
+envelopes and an example-specific model-based gain certificate.
 
-The current 12-page manuscript, finite-power certification implementation,
-model-based gain reference, tests and additional experiment records are in
-[`automatica_submission/`](automatica_submission/).
-See the [paper](automatica_submission/main.pdf) and
-[code and reproduction guide](automatica_submission/CODE_README.md).
-Tables 1--2 retain the original frozen experiments below; Table 3 is the
-additional finite-power study with 24 independent calibration/validation
-replications of one nonnormal plant. The additional study's reset arrays,
-return banks and development records are tracked in this repository.
+## Run the current implementation
 
-For a Git checkout, install Python 3.11 dependencies and retrieve the unchanged
-original recorded-data release once before verifying the full package:
+Use Python 3.11 and a CPU:
 
 ```sh
-cd automatica_submission
+cd control_certification
 python -m venv .venv
 # macOS/Linux:
 source .venv/bin/activate
@@ -29,30 +23,23 @@ python reproduce.py quick
 python reproduce.py all
 ```
 
-`download_recorded_data.py` uses the existing release URL and verifies its
-recorded size and SHA-256; it supplies the original approximately 291 MB
-archive under `reproducibility/crn_policy/data/`. It does not replace any
-observations. The offline submission ZIP already includes that archive and
-does not require the download step. After dependencies and recorded data are
-installed, reproduction needs no network access. The checksum manifest covers
-the submission payload; the small Git-checkout download helper is additional.
+The download helper retrieves the existing approximately 291 MB original data
+release and checks its byte count and SHA-256. Additional reset arrays, return
+banks and development records are tracked directly. After setup, reproduction
+runs without network access. The full command runs 31 tests, numerical audits,
+figure regeneration and all recorded replay groups; it does not retrain all
+original policies or regenerate all simulation banks.
 
-The full reproduction command checks 31 tests, all three manuscript result
-tables, the original replay groups and the additional finite-power study.
-It replays retained observations and runs targeted fresh simulator checks;
-it does not retrain all original policies. To reconstruct a self-contained
-code/data ZIP locally, run `python package_code.py` after the download.
+## Self-contained download
 
-## Download the self-contained submission package
-
-The [Automatica submission release](https://github.com/yeoneung/crn_policy/releases/tag/automatica-submission-2026-10-15)
-provides `Automatica_code.zip` (approximately 296 MB), including the current
-manuscript and all recorded data, plus its SHA-256 checksum. Extract it and
-follow `CODE_README.md`; no separate data download is needed for that ZIP.
+The [code and data release](https://github.com/yeoneung/crn_policy/releases/tag/control-certification-v1)
+contains `control_certification.zip` and its SHA-256 checksum. The ZIP includes
+all recorded data and requires no separate data download. Extract it and follow
+`CODE_README.md`. Run `python package_code.py` to rebuild it locally.
 
 ## Original frozen experiment artifact
 
-The original files and commands below remain available at the repository root.
+The original files and commands remain available at the repository root.
 
 # CRN policy experiments
 
