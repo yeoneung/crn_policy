@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "seed": 200,
+      "repeat": 0,
+      "files": 6,
+      "exact_arrays": 30,
+      "checkpoints": 5,
+      "exact_weight_tensors": 160
+    },
+    {
+      "seed": 203,
+      "repeat": 1,
+      "files": 6,
+      "exact_arrays": 30,
+      "checkpoints": 5,
+      "exact_weight_tensors": 160
+    }
+  ],
+  "seconds": 1362.394499540329,
+  "scope": "Two independently regenerated learning repeats; no additional statistical units; ZIP timestamps excluded."
+}

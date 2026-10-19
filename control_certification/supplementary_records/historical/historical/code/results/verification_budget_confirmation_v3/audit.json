@@ -1,0 +1,14 @@
+{
+  "source_hashes": 12,
+  "pre_validation_hashes": 896,
+  "plants": 128,
+  "choices": 2304,
+  "gates": 2304,
+  "calibration_fits": 384,
+  "raw_gain_checks": 768,
+  "positive_deployments": 1917,
+  "nonpositive_empirical_deployments": 0,
+  "stream_reproductions": 24,
+  "source": "Saved raw data; fresh streams only with --reproduce-streams",
+  "passed": true
+}

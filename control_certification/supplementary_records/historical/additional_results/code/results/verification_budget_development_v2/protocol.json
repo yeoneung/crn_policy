@@ -1,0 +1,78 @@
+{
+  "stage": "development",
+  "dimensions": [
+    8,
+    16
+  ],
+  "seeds": [
+    10000,
+    10001,
+    10100,
+    10101,
+    11000,
+    11001,
+    11100,
+    11101,
+    12000,
+    12001,
+    12100,
+    12101,
+    13000,
+    13001,
+    13100,
+    13101
+  ],
+  "radii": [
+    0.025,
+    0.05,
+    0.1,
+    0.15,
+    0.3,
+    0.6
+  ],
+  "calibration_grid": [
+    512,
+    2048,
+    8192
+  ],
+  "budgets": [
+    114688,
+    139264,
+    180224
+  ],
+  "training_transitions": 81920,
+  "training_radius": 0.15,
+  "pilot_per_arm": 16,
+  "forecast_multiplier": 1.25,
+  "calibration_total_alpha": 0.025,
+  "test_alpha": 0.025,
+  "error_scope": "Per deployed decision, not a simultaneous whole-study family guarantee",
+  "evaluation_pairs": 1024,
+  "fixed_development": null,
+  "fixed_development_sha": null,
+  "primary_endpoint": "Independent evaluation return gain of deployed policy, fallback gain zero",
+  "primary_comparisons": [
+    "joint versus radius_only",
+    "joint versus greedy_return",
+    "joint versus successive_halving",
+    "joint versus fixed_prior",
+    "joint versus fixed_development"
+  ],
+  "multiplicity": "Holm across 3 budgets x 5 paired comparisons; two-sided plant-level t tests",
+  "strata": {
+    "actuator_rotation_angles": [
+      0.05,
+      0.15,
+      0.35,
+      0.65
+    ],
+    "noise_scales": [
+      0.5,
+      2.0
+    ]
+  },
+  "stratum_access": "Hidden from every selector; dimensions and nominal baseline remain public",
+  "deployment_pair_cost": 80,
+  "research_cache": "Common random numbers across arms/methods; deployment paired callback charges both branches",
+  "relation_to_v1": "v1 found tuned fixed-radius stronger at low budget; v2 tests a prospectively declared heterogeneous class without changing the selector"
+}

@@ -1,0 +1,38 @@
+{
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "methods": [
+    "uniform",
+    "decision",
+    "global",
+    "ars",
+    "SACFT"
+  ],
+  "budgets": [
+    10000,
+    20000,
+    40000,
+    80000
+  ],
+  "total_budgets": [
+    40000,
+    80000,
+    160000,
+    320000
+  ],
+  "alpha": 0.0003125,
+  "bound": 23.625049999999998,
+  "final_episodes": 2048,
+  "ridge": 10.0,
+  "sac_lr": 0.0003,
+  "ars_step": 0.1,
+  "ars_noise": 0.2
+}

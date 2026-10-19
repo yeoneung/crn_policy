@@ -1,0 +1,14 @@
+{
+  "verification_budget_core.py": "3188e0bb370ac8ea24bb878d1c8dac799436c4657c062a8006e4c34e1160ae4b",
+  "verification_budget_study.py": "ead20cc9cc60bb4dfb12c1eeb324fe9ab921e598f33326aaeb2185437847417d",
+  "mechanical_repair_core_v2.py": "ee61cc14d4584240a872569024c2c6e78f9d33c115a9410c59f43d8ed8575b46",
+  "mechanical_repair_core.py": "4617f82587f45b3fff9a895106925c22dda6b9615f7d9684dddc19bec0397609",
+  "coupled_support_core.py": "03c6ece16507cd71cda65bda45bf551161f89f31e8becd958bd39f69c2661e6e",
+  "stable_sphere_candidates.py": "09430ebc8b60266f5e720d8d86fcb3953e5faa3ca82956499916fe5f5459f6cc",
+  "finite_horizon_envelope.py": "3b91d4f7259fb365e4248c529baa9725738bf818d33f218780819405b0ac7dd0",
+  "actuation_envelope.py": "5d0102b7357ef96ad03064e92c49410e56125797278d50f70c7171dfce9c71bc",
+  "return_certificate.py": "3ab85b3c4a5fb718a41749630dede8d9d8e741780a338d80d99b3538e499c1b4",
+  "verification_budget_heterogeneity.py": "5b671728ce6d1f88c2c9a4b5281b8ecceaa16443a45aac874f4d188aa1c65fee",
+  "verification_budget_pilot_allocation.py": "f8a6a2ebce3158cf0da790d6d42c1dba24e9be249ebec71d38bcd624bd6181f3",
+  "summarize_verification_budget.py": "35379a9349a1e4637a7b8ee71a2d956c3e93f2514dbf399b67d0fc7ab834c775"
+}

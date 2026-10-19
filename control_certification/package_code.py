@@ -13,8 +13,9 @@ def payload_files():
     names = {'CODE_README.md', 'requirements.txt', 'LICENSE_NOTICE.md',
              'reproduce.py', 'package_code.py', 'download_recorded_data.py',
              'audit_evidence.py', 'audit_finite_power_study.py',
-             'audit_matrix_certificate.py', 'make_figure.py'}
-    for folder in ['certification', 'examples', 'tests', 'reproducibility',
+             'audit_matrix_certificate.py', 'make_figure.py',
+             'audit_included_experiments.py', 'prepare_sources.py', 'EXPERIMENTS.md'}
+    for folder in ['certification', 'examples', 'tests', 'reproducibility', 'supplementary_records',
                    'evidence/finite_power_study', 'evidence/finite_power_development']:
         for path in (ROOT / folder).rglob('*'):
             parts = path.relative_to(ROOT).parts

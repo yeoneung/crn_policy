@@ -1,0 +1,165 @@
+{
+  "stage": "confirmation",
+  "dimensions": [
+    8,
+    16
+  ],
+  "seeds": [
+    10020,
+    10021,
+    10022,
+    10023,
+    10024,
+    10025,
+    10026,
+    10027,
+    10120,
+    10121,
+    10122,
+    10123,
+    10124,
+    10125,
+    10126,
+    10127,
+    11020,
+    11021,
+    11022,
+    11023,
+    11024,
+    11025,
+    11026,
+    11027,
+    11120,
+    11121,
+    11122,
+    11123,
+    11124,
+    11125,
+    11126,
+    11127,
+    12020,
+    12021,
+    12022,
+    12023,
+    12024,
+    12025,
+    12026,
+    12027,
+    12120,
+    12121,
+    12122,
+    12123,
+    12124,
+    12125,
+    12126,
+    12127,
+    13020,
+    13021,
+    13022,
+    13023,
+    13024,
+    13025,
+    13026,
+    13027,
+    13120,
+    13121,
+    13122,
+    13123,
+    13124,
+    13125,
+    13126,
+    13127
+  ],
+  "radii": [
+    0.025,
+    0.05,
+    0.1,
+    0.15,
+    0.3,
+    0.6
+  ],
+  "calibration_grid": [
+    512,
+    2048,
+    8192
+  ],
+  "budgets": [
+    114688,
+    139264,
+    180224
+  ],
+  "training_transitions": 81920,
+  "training_radius": 0.15,
+  "pilot_choices": {
+    "114688": {
+      "joint": 16,
+      "radius_only": 4,
+      "greedy_return": 4,
+      "successive_halving": 8
+    },
+    "139264": {
+      "joint": 16,
+      "radius_only": 16,
+      "greedy_return": 8,
+      "successive_halving": 16
+    },
+    "180224": {
+      "joint": 16,
+      "radius_only": 16,
+      "greedy_return": 16,
+      "successive_halving": 8
+    }
+  },
+  "forecast_multiplier": 1.25,
+  "calibration_total_alpha": 0.025,
+  "test_alpha": 0.025,
+  "error_scope": "Per deployed decision, not a simultaneous whole-study family guarantee",
+  "evaluation_pairs": 4096,
+  "fixed_development": {
+    "114688": [
+      4,
+      2048
+    ],
+    "139264": [
+      4,
+      2048
+    ],
+    "180224": [
+      4,
+      8192
+    ]
+  },
+  "fixed_development_sha": "e9f1503b3528a03fc85ba4c2cb7258953c590669b0c969d5a448f8bb2549845c",
+  "selected_pilots_sha": "2560a628b261571ab1198eca6cef2809a58ff5665afaada8ed08dbc0edd91e3c",
+  "primary_endpoint": "Independent evaluation return gain of deployed policy, fallback gain zero",
+  "primary_comparisons": [
+    "joint versus radius_only",
+    "joint versus greedy_return",
+    "joint versus successive_halving",
+    "joint versus fixed_prior",
+    "joint versus fixed_development"
+  ],
+  "multiplicity": "Holm across 3 budgets x 5 paired comparisons; two-sided plant-level t tests",
+  "strata": {
+    "actuator_rotation_angles": [
+      0.05,
+      0.15,
+      0.35,
+      0.65
+    ],
+    "noise_scales": [
+      0.5,
+      2.0
+    ]
+  },
+  "stratum_access": "Hidden from every selector; dimensions and nominal baseline remain public",
+  "deployment_pair_cost": 80,
+  "research_cache": "Common random numbers across arms/methods; deployment paired callback charges both branches",
+  "amendment": "All four adaptive methods tune pilot sizes 4/8/16 on the same 32 development plants; fixed comparator tuned on full radius/calibration grid",
+  "prespecified_docs": {
+    "VERIFICATION_BUDGET_PLAN.md": "22c10a2e5ca3f638d00129a810b282a8d62bb61109694071d8b7d9171c831f3a",
+    "VERIFICATION_BUDGET_THEORY.md": "2e48f74b168e5622b02df11e34db84ec945cacfdf2ffce000bd9c0ae2d0671c0",
+    "VERIFICATION_BUDGET_AMENDMENT.md": "a7d8a42440cbb0be8548c26cba781a56e952648d0fb5dbf48e2cb8b7b63b3ee9"
+  },
+  "analysis_source_sha": "35379a9349a1e4637a7b8ee71a2d956c3e93f2514dbf399b67d0fc7ab834c775"
+}

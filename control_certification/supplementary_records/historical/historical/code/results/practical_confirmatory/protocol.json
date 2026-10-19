@@ -1,0 +1,46 @@
+{
+  "methods": [
+    "UniformResidual",
+    "DecisionResidual",
+    "ScalarResidual",
+    "VectorResidual",
+    "DecisionFull",
+    "ARS"
+  ],
+  "budgets": [
+    10240,
+    20480,
+    40960,
+    81920
+  ],
+  "total_budgets": [
+    40960,
+    81920,
+    163840,
+    327680
+  ],
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "families": [
+    "linear",
+    "oscillator",
+    "saturating",
+    "rotor"
+  ],
+  "alpha": 6.510416666666667e-05,
+  "final_episodes": 4096,
+  "cert_batch": 32,
+  "damping": -0.15,
+  "ridge": 10.0,
+  "ars_step": 0.1,
+  "ars_noise": 0.2,
+  "expected_cells": 768
+}

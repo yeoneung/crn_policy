@@ -1,0 +1,271 @@
+{
+  "original_data_archive_sha256": "483490e1c13bcc904c4ba1bc0b201bcff8adb061611c81c5b883b56ebf72d3d8",
+  "files": {
+    "development/protocol.json": {
+      "sha256": "d16ddc596746ebffc0fbc2a197669ebf6b022b6b6e718e1dd507b637fd1374f7",
+      "bytes": 17005,
+      "original_member": "code/results/pendulum_regional_study/development/protocol.json"
+    },
+    "development/summary.json": {
+      "sha256": "089e04bcdba0479a736f4ae6fac41c21825d758335c600bd029b92ee2d9098e6",
+      "bytes": 1880,
+      "original_member": "code/results/pendulum_regional_study/development/summary.json"
+    },
+    "final/protocol.json": {
+      "sha256": "617151e0142b0753158d25e3d7e0a127a223cfb5f1a9539b54a97d21655a74d2",
+      "bytes": 16999,
+      "original_member": "code/results/pendulum_regional_study/final/protocol.json"
+    },
+    "final/seed1000/COMPLETE.json": {
+      "sha256": "6de215bfbe4b86a0561d84cfb39d4ef5ff8903e01f8c89bde49d31a674df1c5d",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1000/COMPLETE.json"
+    },
+    "final/seed1000/certification.npz": {
+      "sha256": "65bbeb5e68ffe4f7921c838757d47e48a2a2bb2439eb967ddeb8a532ddb4cf24",
+      "bytes": 495606,
+      "original_member": "code/results/pendulum_regional_study/final/seed1000/certification.npz"
+    },
+    "final/seed1000/evaluation.npz": {
+      "sha256": "884c675424b771458a67df92ae25e7d262a1456892a9c045e1987862b28d9ba9",
+      "bytes": 62131,
+      "original_member": "code/results/pendulum_regional_study/final/seed1000/evaluation.npz"
+    },
+    "final/seed1000/frozen_policy.json": {
+      "sha256": "1b3925a1a48881f5b53ce7a54511be690596573d13b9909e8f85da5fa895e3b1",
+      "bytes": 157,
+      "original_member": "code/results/pendulum_regional_study/final/seed1000/frozen_policy.json"
+    },
+    "final/seed1000/metrics.json": {
+      "sha256": "2f6a388a8f699d23970483c50bba11ea31d9183315a2988cbd28c332155f6479",
+      "bytes": 3857,
+      "original_member": "code/results/pendulum_regional_study/final/seed1000/metrics.json"
+    },
+    "final/seed1000/training.npz": {
+      "sha256": "8f52017039d1253cd15488e5089ca9a3d51a5b91c506770abda2226890f901d6",
+      "bytes": 12270,
+      "original_member": "code/results/pendulum_regional_study/final/seed1000/training.npz"
+    },
+    "final/seed1001/COMPLETE.json": {
+      "sha256": "b7255bcf795de5ad9782440ce83b218fcfa54200f59e63aa0b389d883a524224",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1001/COMPLETE.json"
+    },
+    "final/seed1001/certification.npz": {
+      "sha256": "a8d5a62c7e7c99fef9e2dad456177afb1048ea46e051f5d9900e7c85f4ea903c",
+      "bytes": 495434,
+      "original_member": "code/results/pendulum_regional_study/final/seed1001/certification.npz"
+    },
+    "final/seed1001/evaluation.npz": {
+      "sha256": "537010b226242a82b032d9dd063dd508d3034bf7c342b6d5f9e69d6f94485a30",
+      "bytes": 62132,
+      "original_member": "code/results/pendulum_regional_study/final/seed1001/evaluation.npz"
+    },
+    "final/seed1001/frozen_policy.json": {
+      "sha256": "a72fad71ac16da394c85cb4ffbba875a73b7a4a5d2cdf1f3c5463efaec031295",
+      "bytes": 158,
+      "original_member": "code/results/pendulum_regional_study/final/seed1001/frozen_policy.json"
+    },
+    "final/seed1001/metrics.json": {
+      "sha256": "3fb78443f51f8858b7164c1c07cb083fa2b5ae3a09e9cf7cc261906533cdc749",
+      "bytes": 3855,
+      "original_member": "code/results/pendulum_regional_study/final/seed1001/metrics.json"
+    },
+    "final/seed1001/training.npz": {
+      "sha256": "03e8822c806fb7c729508b2b051010025f5c8ce3c2207233a0c18bafdec71214",
+      "bytes": 12268,
+      "original_member": "code/results/pendulum_regional_study/final/seed1001/training.npz"
+    },
+    "final/seed1002/COMPLETE.json": {
+      "sha256": "21063f106b291d9e869c7768cef8417c34fd69fd1d05b0790d3b5a321dad9608",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1002/COMPLETE.json"
+    },
+    "final/seed1002/certification.npz": {
+      "sha256": "360514ba106341eaaf5c37c3eb567fb745c1c0142f0eb0c3d3fce82888970af9",
+      "bytes": 495515,
+      "original_member": "code/results/pendulum_regional_study/final/seed1002/certification.npz"
+    },
+    "final/seed1002/evaluation.npz": {
+      "sha256": "0922abecf7d7b8d499de8a766215fd7e97fd120509794690c485c50ffb8bb0e1",
+      "bytes": 62134,
+      "original_member": "code/results/pendulum_regional_study/final/seed1002/evaluation.npz"
+    },
+    "final/seed1002/frozen_policy.json": {
+      "sha256": "0d775eb7affcc4a711d9995f1bf3d0464a35239822c795c816b8e942f3507b0d",
+      "bytes": 158,
+      "original_member": "code/results/pendulum_regional_study/final/seed1002/frozen_policy.json"
+    },
+    "final/seed1002/metrics.json": {
+      "sha256": "8c82ef571fb632297c53633e57ffa4f3190e9818ceddd21ceb6ee22c5ddbeaa2",
+      "bytes": 3856,
+      "original_member": "code/results/pendulum_regional_study/final/seed1002/metrics.json"
+    },
+    "final/seed1002/training.npz": {
+      "sha256": "845ef27641665e8ed43b52ef1075712a5669732ccef0a6bced2aa19de2bea355",
+      "bytes": 12256,
+      "original_member": "code/results/pendulum_regional_study/final/seed1002/training.npz"
+    },
+    "final/seed1003/COMPLETE.json": {
+      "sha256": "5ff31d8a2856722aecdf81f2df698888561f73deb2ef6f19a44e513da7c719c5",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1003/COMPLETE.json"
+    },
+    "final/seed1003/certification.npz": {
+      "sha256": "755e5b77cd3a9dce11f404c0d64fe82978d6005b52d679b1dbe568e64b3504e4",
+      "bytes": 495542,
+      "original_member": "code/results/pendulum_regional_study/final/seed1003/certification.npz"
+    },
+    "final/seed1003/evaluation.npz": {
+      "sha256": "66f6a3371b94f64177668caddb712dd8fd6cd85e4c2059b14501b68245b06957",
+      "bytes": 62109,
+      "original_member": "code/results/pendulum_regional_study/final/seed1003/evaluation.npz"
+    },
+    "final/seed1003/frozen_policy.json": {
+      "sha256": "4be23bd3257b5f09c06b8e92fbcaf3bb7001bee2c1065862b382523ee35101db",
+      "bytes": 158,
+      "original_member": "code/results/pendulum_regional_study/final/seed1003/frozen_policy.json"
+    },
+    "final/seed1003/metrics.json": {
+      "sha256": "12e7c327457aa27cd96e040f2e894ef5d926df492846eb8069f611384237c9e9",
+      "bytes": 3839,
+      "original_member": "code/results/pendulum_regional_study/final/seed1003/metrics.json"
+    },
+    "final/seed1003/training.npz": {
+      "sha256": "e1b47afdf1e1b36f0d68c0b8987f1715fefc7fb382eb52e621f9be214f7502c9",
+      "bytes": 12253,
+      "original_member": "code/results/pendulum_regional_study/final/seed1003/training.npz"
+    },
+    "final/seed1004/COMPLETE.json": {
+      "sha256": "2990d7e727aa3742daaf2335fff7f88cd644132214cc00add9dccaa1dcfaa809",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1004/COMPLETE.json"
+    },
+    "final/seed1004/certification.npz": {
+      "sha256": "33b0274fa9bd62a20871c358960f17bb4c90f8d4ab7bb731e0f5e62c9a347ae8",
+      "bytes": 495545,
+      "original_member": "code/results/pendulum_regional_study/final/seed1004/certification.npz"
+    },
+    "final/seed1004/evaluation.npz": {
+      "sha256": "356ac3fcc8f682d920447df7d8b5d9865460c868b2bbdeb18c9336861e600881",
+      "bytes": 62128,
+      "original_member": "code/results/pendulum_regional_study/final/seed1004/evaluation.npz"
+    },
+    "final/seed1004/frozen_policy.json": {
+      "sha256": "98b7f7263ed165db5c6464eea6372101a7a88d6371a3da3bbbf578597677d385",
+      "bytes": 159,
+      "original_member": "code/results/pendulum_regional_study/final/seed1004/frozen_policy.json"
+    },
+    "final/seed1004/metrics.json": {
+      "sha256": "d26d74efd20734cbfac75a358dba270b9af5927c368607560ce03b5789636524",
+      "bytes": 3832,
+      "original_member": "code/results/pendulum_regional_study/final/seed1004/metrics.json"
+    },
+    "final/seed1004/training.npz": {
+      "sha256": "a37c5b3f9509be9fa79559901abfa2e8ba815fb5be08b9e1b464bb1bdf7ef189",
+      "bytes": 12251,
+      "original_member": "code/results/pendulum_regional_study/final/seed1004/training.npz"
+    },
+    "final/seed1005/COMPLETE.json": {
+      "sha256": "d52e0e2c828fd1625789235e3a9eb19d1ef6e6bd29ea506c033ed7c728cc8062",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1005/COMPLETE.json"
+    },
+    "final/seed1005/certification.npz": {
+      "sha256": "0048bfde1a5da65c6b08c72365bb2e2b0ddb763ca2a78bb76b4da08323a2824f",
+      "bytes": 495547,
+      "original_member": "code/results/pendulum_regional_study/final/seed1005/certification.npz"
+    },
+    "final/seed1005/evaluation.npz": {
+      "sha256": "94a0562150fd877ede3851898013e6e3a54c0019547045520e392f76117758a0",
+      "bytes": 62150,
+      "original_member": "code/results/pendulum_regional_study/final/seed1005/evaluation.npz"
+    },
+    "final/seed1005/frozen_policy.json": {
+      "sha256": "e810f7dc43bc39d3d7adbe127323319d7187b27ee2a6851200e6c5d3254cf07c",
+      "bytes": 156,
+      "original_member": "code/results/pendulum_regional_study/final/seed1005/frozen_policy.json"
+    },
+    "final/seed1005/metrics.json": {
+      "sha256": "af76d4c4910ff1b192ec875c4cc92f54930a5516e121c52274a5b0aa530e66f5",
+      "bytes": 3834,
+      "original_member": "code/results/pendulum_regional_study/final/seed1005/metrics.json"
+    },
+    "final/seed1005/training.npz": {
+      "sha256": "2afa6ad54d4a0082285e538b94e85933900d6dddffbb4ae2effa3bfd4d9d0e85",
+      "bytes": 12247,
+      "original_member": "code/results/pendulum_regional_study/final/seed1005/training.npz"
+    },
+    "final/seed1006/COMPLETE.json": {
+      "sha256": "a3ba9c44d136354dc13225dc5c7a51d89ab6371a16acf0af951ca82488257e25",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1006/COMPLETE.json"
+    },
+    "final/seed1006/certification.npz": {
+      "sha256": "6beb29f141b272c009c99c40c3af545cdf6fcedfb0959ccc4dab17e645b378de",
+      "bytes": 495524,
+      "original_member": "code/results/pendulum_regional_study/final/seed1006/certification.npz"
+    },
+    "final/seed1006/evaluation.npz": {
+      "sha256": "c6668ddea9d78647e3c2f845d69520bb5f537994be03c5e22884b548751d1b39",
+      "bytes": 62139,
+      "original_member": "code/results/pendulum_regional_study/final/seed1006/evaluation.npz"
+    },
+    "final/seed1006/frozen_policy.json": {
+      "sha256": "ddbd9fe122380141a027a6023cc613de765014ada4cb92d6809c84a228fca165",
+      "bytes": 158,
+      "original_member": "code/results/pendulum_regional_study/final/seed1006/frozen_policy.json"
+    },
+    "final/seed1006/metrics.json": {
+      "sha256": "d26694f368fe841b6bab44187ddc6bdeb07a847c182061402242d5aa3fd0dfd7",
+      "bytes": 3834,
+      "original_member": "code/results/pendulum_regional_study/final/seed1006/metrics.json"
+    },
+    "final/seed1006/training.npz": {
+      "sha256": "586797fc854b98152bc0e5313d79f6558ac4f3a665260761c8d46ac43fe3684c",
+      "bytes": 12251,
+      "original_member": "code/results/pendulum_regional_study/final/seed1006/training.npz"
+    },
+    "final/seed1007/COMPLETE.json": {
+      "sha256": "947383f0023aefed31e103b6377646072df99c665c0fc0ff94cc94d5382e6dee",
+      "bytes": 484,
+      "original_member": "code/results/pendulum_regional_study/final/seed1007/COMPLETE.json"
+    },
+    "final/seed1007/certification.npz": {
+      "sha256": "d890d5ea12184edfd7ad7008c2b754494aa9c0e2a503b902e64a42ffa4ef9a84",
+      "bytes": 495519,
+      "original_member": "code/results/pendulum_regional_study/final/seed1007/certification.npz"
+    },
+    "final/seed1007/evaluation.npz": {
+      "sha256": "f4b625b8f2fd9022f1304faa83be699fb7557587d2e020921190a10bed1f6d2a",
+      "bytes": 62123,
+      "original_member": "code/results/pendulum_regional_study/final/seed1007/evaluation.npz"
+    },
+    "final/seed1007/frozen_policy.json": {
+      "sha256": "f4b90e9abd2f1a311e06365bffbd6d947b8b6a76cd426ec15738d26d2bd5b2b4",
+      "bytes": 155,
+      "original_member": "code/results/pendulum_regional_study/final/seed1007/frozen_policy.json"
+    },
+    "final/seed1007/metrics.json": {
+      "sha256": "17269efe4ae0e76db6cc50b3853d8695063a2d7cd0be91474fb9e583e62e2b71",
+      "bytes": 3832,
+      "original_member": "code/results/pendulum_regional_study/final/seed1007/metrics.json"
+    },
+    "final/seed1007/training.npz": {
+      "sha256": "578b3a93813e6842688d28b4549e049231c08b69a68653b95a1334ff01edcbb2",
+      "bytes": 12260,
+      "original_member": "code/results/pendulum_regional_study/final/seed1007/training.npz"
+    },
+    "final/summary.json": {
+      "sha256": "79a4c994c4016ce36ae93433c19c2fee9125d1fa3a2d76641ff107d2c56e251b",
+      "bytes": 1875,
+      "original_member": "code/results/pendulum_regional_study/final/summary.json"
+    },
+    "independent_audit.json": {
+      "sha256": "ba1c279e326c962943d7bd4174371bda239f91542514e7e053d3ebcc7d077648",
+      "bytes": 1132,
+      "original_member": "code/results/pendulum_regional_study/independent_audit.json"
+    }
+  },
+  "scope": "Retained final raw records and development protocol/summary; no new training or observations."
+}

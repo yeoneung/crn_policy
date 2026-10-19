@@ -5,8 +5,12 @@
   "full_benchmark_retraining_claimed": false,
   "files": {
     "CODE_README.md": {
-      "bytes": 13096,
-      "sha256": "f07e0c0e6313ab86465faf930a3e50a5a91dacf5400e5b19621d1b2af6da8a67"
+      "bytes": 14536,
+      "sha256": "dab3a91f13646b1883cadf597b1af480579aa7e33d62aff9498920a3833e3e5c"
+    },
+    "EXPERIMENTS.md": {
+      "bytes": 7929,
+      "sha256": "5cd20f6e3488605cb16c6443b5d83f1993d07fa4b22d0a085f96d2548175f8a5"
     },
     "LICENSE_NOTICE.md": {
       "bytes": 344,
@@ -19,6 +23,10 @@
     "audit_finite_power_study.py": {
       "bytes": 4295,
       "sha256": "59a8e5f582e5e54cdea3d86f2fe09a203f6187bce504106dada13140039d8698"
+    },
+    "audit_included_experiments.py": {
+      "bytes": 5208,
+      "sha256": "c65b3c7d248f439855f50f8abfc2c10155bb165932886815146dbc71618fa2e2"
     },
     "audit_matrix_certificate.py": {
       "bytes": 7882,
@@ -129,12 +137,16 @@
       "sha256": "0f9146e15924f6ca97dfbefe6e04026c4bcfdab329543d2a3ea3a2b665c9dc22"
     },
     "package_code.py": {
-      "bytes": 2456,
-      "sha256": "cfbadd4a89e90d74ab43198c9e60f91d8bf65276bb71a6f1d4cd2cd771016ccc"
+      "bytes": 2567,
+      "sha256": "2d2e827a3560b7d18ac3fd31a9acad14fedfc1504282a63e9950983f077e1918"
+    },
+    "prepare_sources.py": {
+      "bytes": 2610,
+      "sha256": "91a62d3ad86817eda9c10b4d58fd150276104a4bfd28c1775d3cc73b5abb8f14"
     },
     "reproduce.py": {
-      "bytes": 5425,
-      "sha256": "4f1c0e49c0dc40e1081235741d06d75cd827a4e3645be6f9c3e0a8b54f698e8e"
+      "bytes": 6128,
+      "sha256": "7c500e4ac827f1480769b04a3eade67bcd5581f730cf47ff8151c167f61a29f4"
     },
     "reproducibility/crn_policy/.gitattributes": {
       "bytes": 378,
@@ -487,6 +499,550 @@
     "requirements.txt": {
       "bytes": 165,
       "sha256": "039cdd11e0376ce30a84a2fad4cd9d9dadc5828268114ef9c69420187b490a6f"
+    },
+    "supplementary_records/README.md": {
+      "bytes": 4004,
+      "sha256": "394a51ba91024528e318b10311d8fdea648080a2312f9e4db9ec43cdc56e141d"
+    },
+    "supplementary_records/audit.py": {
+      "bytes": 6704,
+      "sha256": "860d701dd033328e6d51d4977a2f886562056f1c8fe3624d555751ae03e7ccf3"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed700/COMPLETE": {
+      "bytes": 1004,
+      "sha256": "4f57442abc27c0ccece828edd8e45915a9f938718e1a192450a5f1b469174667"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed700/evaluation.npz": {
+      "bytes": 371912,
+      "sha256": "9510874ce475c51c9ad75bc346a46590fbd058863a375d247ab527b413627f73"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed701/COMPLETE": {
+      "bytes": 1008,
+      "sha256": "e7d040a837caca415284adb7b68adcaf295bfaaef9f45b833cd8f239d94b65c7"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed701/evaluation.npz": {
+      "bytes": 371973,
+      "sha256": "9609a67bf4bd2853496f2f8f63134881c32beb3af332a07264644fdb4d9add3f"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed702/COMPLETE": {
+      "bytes": 1005,
+      "sha256": "fe0e7bfdc80228f54ed8207830e3ac3fd02fee04f01ef38d2714cc4435bc6cce"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed702/evaluation.npz": {
+      "bytes": 371961,
+      "sha256": "7e895ffef137fbb7d3c740aa53e4eccdbeb94f759a79bace33374dad6f917450"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed703/COMPLETE": {
+      "bytes": 1004,
+      "sha256": "9b98a5574fb495f8ea3ed646dc097cbb064beb5ff16b0dc0c2b8b4f82ce406a0"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed703/evaluation.npz": {
+      "bytes": 371941,
+      "sha256": "ab191a3ec9e49f6ff7f65f97516091dbcefeb9d58727b488f8e752a87f57a551"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed704/COMPLETE": {
+      "bytes": 1004,
+      "sha256": "e285560214c4a988a045e58bedba618242074a6dea6538fad0ce609db9b87501"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed704/evaluation.npz": {
+      "bytes": 371990,
+      "sha256": "f05cd69d8df54840b30d51d2000d8c9cb9a560a95eb8d77a1b472d0eea6ad76e"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed705/COMPLETE": {
+      "bytes": 1006,
+      "sha256": "30e8daeab788a408fcedd93d7a620e0c5cd6c09dacfb109481aaf89d962600af"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed705/evaluation.npz": {
+      "bytes": 372040,
+      "sha256": "c118a79325fa10e75af352a51bf366225df9dcd02dec1ddc388425181967a989"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed706/COMPLETE": {
+      "bytes": 1005,
+      "sha256": "3bfb0c7ff96c24ba1ef1ef75eb0db65ad6eff5826e9c0fe3156453d4eb704774"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed706/evaluation.npz": {
+      "bytes": 372074,
+      "sha256": "615dedefe50785779aaf07dac320b191630b5dac40f9c0ff8d8e20741ad3176a"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed707/COMPLETE": {
+      "bytes": 1004,
+      "sha256": "c998cf0d2f4c42a9e970314633b7221728f566b12cedf83b9440f6c409592cfc"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim16_seed707/evaluation.npz": {
+      "bytes": 371886,
+      "sha256": "5a42d565863ba94e80c26454a7e8f2cc0fbc444fdc6f1f23e491b6e8407f3da5"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed700/COMPLETE": {
+      "bytes": 1003,
+      "sha256": "025bfbc6dd36fb746fbabcfa96591608be10f1ea88874bf58646c4397f58346a"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed700/evaluation.npz": {
+      "bytes": 371646,
+      "sha256": "3c4839e583a2dcbc4878072b963ef4cc318e53064d2440731a0fc8a72a12e3c3"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed701/COMPLETE": {
+      "bytes": 1003,
+      "sha256": "943847a53761285b9de2a1ec5e34bcae746b5e4b318ec567ffa95a25f0d33774"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed701/evaluation.npz": {
+      "bytes": 371729,
+      "sha256": "1a590bcaaf687105a3675c2da453e61705d0cb9c5b18e8b7923f6ae052731c5b"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed702/COMPLETE": {
+      "bytes": 1009,
+      "sha256": "ad67e515d2c155fed650ec5a53052d205ccc3d3fe7f55461fe28e11cdf2a82a9"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed702/evaluation.npz": {
+      "bytes": 371836,
+      "sha256": "63694f5b550b1b4f6b219522ff1d20fa4a7fdad70f50d811670d34e303ccb556"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed703/COMPLETE": {
+      "bytes": 1008,
+      "sha256": "1de33802d48634264465c47fc9015990b5ef19fbf49b831418c2b92c5ca03321"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed703/evaluation.npz": {
+      "bytes": 371816,
+      "sha256": "399db79e70157ab66c4380e0998e42a1eb2db916b98d2cedd83ad108fd20dc4d"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed704/COMPLETE": {
+      "bytes": 1007,
+      "sha256": "ef258098150ff17d1511d5706d46066f5f22dcf20cd832c9dcc2ca403ebbccb8"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed704/evaluation.npz": {
+      "bytes": 371679,
+      "sha256": "e49cf0f0845041166aac4fc783b77805882c7d4da1ce8ca621b19b2b8c04b475"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed705/COMPLETE": {
+      "bytes": 1005,
+      "sha256": "e0234ddece64a45c79f439ed16d5685deaa43ef09ee455ac5e74058dbc4df33e"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed705/evaluation.npz": {
+      "bytes": 371688,
+      "sha256": "5c45b678ec1a0ce8ca9e631db33f4ff3c790ef853d5599462d3444a27828cca3"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed706/COMPLETE": {
+      "bytes": 1000,
+      "sha256": "86904e6a22f9b74dcfbf1370bae3af6af6bede05725618f0a1370c0e9f309763"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed706/evaluation.npz": {
+      "bytes": 371626,
+      "sha256": "d9ea24a59b0729921e7af5024e93cbeb5c2f92d602718159405f0f73bc7ec734"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed707/COMPLETE": {
+      "bytes": 1004,
+      "sha256": "705b3d289f1d64715aa8c1c1d7e4c1ee34746844ec767c2a59cb0d964ce169a6"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/dim8_seed707/evaluation.npz": {
+      "bytes": 371788,
+      "sha256": "f0fe6c3675d0e80998a3a5a6f6c42122f18ae88270493a4e0a89a367c6e7d49a"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/protocol.json": {
+      "bytes": 438,
+      "sha256": "cb10995830b677166c3361ef392e6e78efdd200c2ed3bc2fccd9493fb938bc21"
+    },
+    "supplementary_records/data/mechanical_physical_metrics/source_hashes.json": {
+      "bytes": 3096,
+      "sha256": "982f10431dbdd3a0a3bf3f80f82e20ac9a6569850b59663b46be8540cbb08915"
+    },
+    "supplementary_records/data/pendulum_regional_study/development/protocol.json": {
+      "bytes": 17005,
+      "sha256": "d16ddc596746ebffc0fbc2a197669ebf6b022b6b6e718e1dd507b637fd1374f7"
+    },
+    "supplementary_records/data/pendulum_regional_study/development/summary.json": {
+      "bytes": 1880,
+      "sha256": "089e04bcdba0479a736f4ae6fac41c21825d758335c600bd029b92ee2d9098e6"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/protocol.json": {
+      "bytes": 16999,
+      "sha256": "617151e0142b0753158d25e3d7e0a127a223cfb5f1a9539b54a97d21655a74d2"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1000/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "6de215bfbe4b86a0561d84cfb39d4ef5ff8903e01f8c89bde49d31a674df1c5d"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1000/certification.npz": {
+      "bytes": 495606,
+      "sha256": "65bbeb5e68ffe4f7921c838757d47e48a2a2bb2439eb967ddeb8a532ddb4cf24"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1000/evaluation.npz": {
+      "bytes": 62131,
+      "sha256": "884c675424b771458a67df92ae25e7d262a1456892a9c045e1987862b28d9ba9"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1000/frozen_policy.json": {
+      "bytes": 157,
+      "sha256": "1b3925a1a48881f5b53ce7a54511be690596573d13b9909e8f85da5fa895e3b1"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1000/metrics.json": {
+      "bytes": 3857,
+      "sha256": "2f6a388a8f699d23970483c50bba11ea31d9183315a2988cbd28c332155f6479"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1000/training.npz": {
+      "bytes": 12270,
+      "sha256": "8f52017039d1253cd15488e5089ca9a3d51a5b91c506770abda2226890f901d6"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1001/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "b7255bcf795de5ad9782440ce83b218fcfa54200f59e63aa0b389d883a524224"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1001/certification.npz": {
+      "bytes": 495434,
+      "sha256": "a8d5a62c7e7c99fef9e2dad456177afb1048ea46e051f5d9900e7c85f4ea903c"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1001/evaluation.npz": {
+      "bytes": 62132,
+      "sha256": "537010b226242a82b032d9dd063dd508d3034bf7c342b6d5f9e69d6f94485a30"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1001/frozen_policy.json": {
+      "bytes": 158,
+      "sha256": "a72fad71ac16da394c85cb4ffbba875a73b7a4a5d2cdf1f3c5463efaec031295"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1001/metrics.json": {
+      "bytes": 3855,
+      "sha256": "3fb78443f51f8858b7164c1c07cb083fa2b5ae3a09e9cf7cc261906533cdc749"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1001/training.npz": {
+      "bytes": 12268,
+      "sha256": "03e8822c806fb7c729508b2b051010025f5c8ce3c2207233a0c18bafdec71214"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1002/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "21063f106b291d9e869c7768cef8417c34fd69fd1d05b0790d3b5a321dad9608"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1002/certification.npz": {
+      "bytes": 495515,
+      "sha256": "360514ba106341eaaf5c37c3eb567fb745c1c0142f0eb0c3d3fce82888970af9"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1002/evaluation.npz": {
+      "bytes": 62134,
+      "sha256": "0922abecf7d7b8d499de8a766215fd7e97fd120509794690c485c50ffb8bb0e1"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1002/frozen_policy.json": {
+      "bytes": 158,
+      "sha256": "0d775eb7affcc4a711d9995f1bf3d0464a35239822c795c816b8e942f3507b0d"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1002/metrics.json": {
+      "bytes": 3856,
+      "sha256": "8c82ef571fb632297c53633e57ffa4f3190e9818ceddd21ceb6ee22c5ddbeaa2"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1002/training.npz": {
+      "bytes": 12256,
+      "sha256": "845ef27641665e8ed43b52ef1075712a5669732ccef0a6bced2aa19de2bea355"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1003/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "5ff31d8a2856722aecdf81f2df698888561f73deb2ef6f19a44e513da7c719c5"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1003/certification.npz": {
+      "bytes": 495542,
+      "sha256": "755e5b77cd3a9dce11f404c0d64fe82978d6005b52d679b1dbe568e64b3504e4"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1003/evaluation.npz": {
+      "bytes": 62109,
+      "sha256": "66f6a3371b94f64177668caddb712dd8fd6cd85e4c2059b14501b68245b06957"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1003/frozen_policy.json": {
+      "bytes": 158,
+      "sha256": "4be23bd3257b5f09c06b8e92fbcaf3bb7001bee2c1065862b382523ee35101db"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1003/metrics.json": {
+      "bytes": 3839,
+      "sha256": "12e7c327457aa27cd96e040f2e894ef5d926df492846eb8069f611384237c9e9"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1003/training.npz": {
+      "bytes": 12253,
+      "sha256": "e1b47afdf1e1b36f0d68c0b8987f1715fefc7fb382eb52e621f9be214f7502c9"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1004/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "2990d7e727aa3742daaf2335fff7f88cd644132214cc00add9dccaa1dcfaa809"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1004/certification.npz": {
+      "bytes": 495545,
+      "sha256": "33b0274fa9bd62a20871c358960f17bb4c90f8d4ab7bb731e0f5e62c9a347ae8"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1004/evaluation.npz": {
+      "bytes": 62128,
+      "sha256": "356ac3fcc8f682d920447df7d8b5d9865460c868b2bbdeb18c9336861e600881"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1004/frozen_policy.json": {
+      "bytes": 159,
+      "sha256": "98b7f7263ed165db5c6464eea6372101a7a88d6371a3da3bbbf578597677d385"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1004/metrics.json": {
+      "bytes": 3832,
+      "sha256": "d26d74efd20734cbfac75a358dba270b9af5927c368607560ce03b5789636524"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1004/training.npz": {
+      "bytes": 12251,
+      "sha256": "a37c5b3f9509be9fa79559901abfa2e8ba815fb5be08b9e1b464bb1bdf7ef189"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1005/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "d52e0e2c828fd1625789235e3a9eb19d1ef6e6bd29ea506c033ed7c728cc8062"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1005/certification.npz": {
+      "bytes": 495547,
+      "sha256": "0048bfde1a5da65c6b08c72365bb2e2b0ddb763ca2a78bb76b4da08323a2824f"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1005/evaluation.npz": {
+      "bytes": 62150,
+      "sha256": "94a0562150fd877ede3851898013e6e3a54c0019547045520e392f76117758a0"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1005/frozen_policy.json": {
+      "bytes": 156,
+      "sha256": "e810f7dc43bc39d3d7adbe127323319d7187b27ee2a6851200e6c5d3254cf07c"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1005/metrics.json": {
+      "bytes": 3834,
+      "sha256": "af76d4c4910ff1b192ec875c4cc92f54930a5516e121c52274a5b0aa530e66f5"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1005/training.npz": {
+      "bytes": 12247,
+      "sha256": "2afa6ad54d4a0082285e538b94e85933900d6dddffbb4ae2effa3bfd4d9d0e85"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1006/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "a3ba9c44d136354dc13225dc5c7a51d89ab6371a16acf0af951ca82488257e25"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1006/certification.npz": {
+      "bytes": 495524,
+      "sha256": "6beb29f141b272c009c99c40c3af545cdf6fcedfb0959ccc4dab17e645b378de"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1006/evaluation.npz": {
+      "bytes": 62139,
+      "sha256": "c6668ddea9d78647e3c2f845d69520bb5f537994be03c5e22884b548751d1b39"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1006/frozen_policy.json": {
+      "bytes": 158,
+      "sha256": "ddbd9fe122380141a027a6023cc613de765014ada4cb92d6809c84a228fca165"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1006/metrics.json": {
+      "bytes": 3834,
+      "sha256": "d26694f368fe841b6bab44187ddc6bdeb07a847c182061402242d5aa3fd0dfd7"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1006/training.npz": {
+      "bytes": 12251,
+      "sha256": "586797fc854b98152bc0e5313d79f6558ac4f3a665260761c8d46ac43fe3684c"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1007/COMPLETE.json": {
+      "bytes": 484,
+      "sha256": "947383f0023aefed31e103b6377646072df99c665c0fc0ff94cc94d5382e6dee"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1007/certification.npz": {
+      "bytes": 495519,
+      "sha256": "d890d5ea12184edfd7ad7008c2b754494aa9c0e2a503b902e64a42ffa4ef9a84"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1007/evaluation.npz": {
+      "bytes": 62123,
+      "sha256": "f4b625b8f2fd9022f1304faa83be699fb7557587d2e020921190a10bed1f6d2a"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1007/frozen_policy.json": {
+      "bytes": 155,
+      "sha256": "f4b90e9abd2f1a311e06365bffbd6d947b8b6a76cd426ec15738d26d2bd5b2b4"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1007/metrics.json": {
+      "bytes": 3832,
+      "sha256": "17269efe4ae0e76db6cc50b3853d8695063a2d7cd0be91474fb9e583e62e2b71"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/seed1007/training.npz": {
+      "bytes": 12260,
+      "sha256": "578b3a93813e6842688d28b4549e049231c08b69a68653b95a1334ff01edcbb2"
+    },
+    "supplementary_records/data/pendulum_regional_study/final/summary.json": {
+      "bytes": 1875,
+      "sha256": "79a4c994c4016ce36ae93433c19c2fee9125d1fa3a2d76641ff107d2c56e251b"
+    },
+    "supplementary_records/data/pendulum_regional_study/independent_audit.json": {
+      "bytes": 1132,
+      "sha256": "ba1c279e326c962943d7bd4174371bda239f91542514e7e053d3ebcc7d077648"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_confirmation_v3/audit.json": {
+      "bytes": 375,
+      "sha256": "71686bad02c574b941af2aced73ef4a967a60c41adddeccf6e936438e8b8a970"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_confirmation_v3/protocol.json": {
+      "bytes": 3546,
+      "sha256": "bb7ed399a294febc1ad3ad336077d34a98129923bea7aab4a84978005fb56af4"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_confirmation_v3/source_hashes.json": {
+      "bytes": 1238,
+      "sha256": "bd996865202ba6006fbfdc46ff46312fb8c7839d6538d9e6d21db8fff18c107c"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_confirmation_v3/summary.json": {
+      "bytes": 22482,
+      "sha256": "f4ac46959ac6069a6f1195aaa3bc4949a70b7916c8ec2831558824a8fbb84652"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_development_v2/fixed_development.json": {
+      "bytes": 122,
+      "sha256": "e9f1503b3528a03fc85ba4c2cb7258953c590669b0c969d5a448f8bb2549845c"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_development_v2/protocol.json": {
+      "bytes": 1837,
+      "sha256": "d4cf25cc17132a9b0e52ab68d842f0c3f96deb6560ac728c8b880665a8e8d274"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_development_v2/source_hashes.json": {
+      "bytes": 1017,
+      "sha256": "56cad1a94dd1bf48313b69fe68ca0b80ba6716bdd23a99bc1108b0cefd0c1fde"
+    },
+    "supplementary_records/historical/additional_results/code/results/verification_budget_development_v2/summary.json": {
+      "bytes": 18467,
+      "sha256": "327e6be6a83996e312b291f016a5c4e13655425ffeb99fd02bda07f80c8c5516"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/audit.json": {
+      "bytes": 347,
+      "sha256": "32ff725e05b9872986a949db67dfa5fb08ccac4a2f0559033b7035ec7775d960"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/execution.json": {
+      "bytes": 4262,
+      "sha256": "2ec6d1675a744bff2bb66047e1ee054c9fa1c4cc291320e70e9b2e76aa0c34ea"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/practical.json": {
+      "bytes": 76667,
+      "sha256": "04bc2b8e909b3f5a6a9c7aff846caf1563eb71d3673705baf33c78035bbfb54b"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/reacher.json": {
+      "bytes": 25005,
+      "sha256": "b7d50b7df72b8dcfa4abbd4e9da07edb562aa21f7c431d960b70c6ef7b38d301"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/residual_reproduction.json": {
+      "bytes": 518,
+      "sha256": "0718bda281865dc6db5593faf38063d919fe083021e30cb2922068730a466166"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/residual_sac.json": {
+      "bytes": 43859,
+      "sha256": "53a724c889b1832aa7a64e418095f4fb1843576981577ce248eccfcd548959b1"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/scalar.json": {
+      "bytes": 133312,
+      "sha256": "74551750a61411fa36e43c649f8d39e56a01a1394023724b9c0ed279baa28bbc"
+    },
+    "supplementary_records/historical/historical/code/results/phase15_summary/step.json": {
+      "bytes": 29828,
+      "sha256": "a5562ccb8d5edffec0cdcded746bcd0af4afd7eadf942d7b09f733c709011fc5"
+    },
+    "supplementary_records/historical/historical/code/results/practical_confirmatory/protocol.json": {
+      "bytes": 677,
+      "sha256": "906bb916419c4cc2681b508a7a4b2986a1ace760b7709cc7bdbce43dcd4803fa"
+    },
+    "supplementary_records/historical/historical/code/results/practical_confirmatory/source_hashes.json": {
+      "bytes": 5346,
+      "sha256": "5e72705a55aea182b3b5209f730cc0e179d111502e31842d7250359b736227b6"
+    },
+    "supplementary_records/historical/historical/code/results/reacher_confirmatory/protocol.json": {
+      "bytes": 507,
+      "sha256": "0816d6d70895e235a90da4667b3408dcbb151cbcd03ca8e62a5b1f4fd6115e64"
+    },
+    "supplementary_records/historical/historical/code/results/reacher_confirmatory/source_hashes.json": {
+      "bytes": 1957,
+      "sha256": "b6f8fcebf4dca44d6600f76dddc4528eca45fcde1bbde0a7af56cc5b0e2237f8"
+    },
+    "supplementary_records/historical/historical/code/results/reacher_residual_followup/joint_original_certificates.json": {
+      "bytes": 923515,
+      "sha256": "2676f3a2d4cf6e655f036e3bc3371ff407ecc5d6151dbee5f5dd0194062cd84c"
+    },
+    "supplementary_records/historical/historical/code/results/reacher_residual_followup/protocol.json": {
+      "bytes": 423,
+      "sha256": "a15d6cef0bb17e6b11f6769f1b5abf2949c1e58c9425d27d4afac7d000d78b9d"
+    },
+    "supplementary_records/historical/historical/code/results/reacher_residual_followup/source_hashes.json": {
+      "bytes": 1631,
+      "sha256": "d13f1c2ee0eb9462bdc358f9737075df41eecbc28cab55efcca3cda2a83cc92c"
+    },
+    "supplementary_records/historical/historical/code/results/scalar_reward_confirmatory/protocol.json": {
+      "bytes": 609,
+      "sha256": "5316400755206e1e0d7df13404b563ad61e6804b814491b16c4e557c5f3a2f02"
+    },
+    "supplementary_records/historical/historical/code/results/scalar_reward_confirmatory/source_hashes.json": {
+      "bytes": 450,
+      "sha256": "e6cc620010400f5cb297a01a271643f16efb044d3f410f82434bf69ca40cbade"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_confirmation_v3/audit.json": {
+      "bytes": 375,
+      "sha256": "71686bad02c574b941af2aced73ef4a967a60c41adddeccf6e936438e8b8a970"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_confirmation_v3/protocol.json": {
+      "bytes": 3546,
+      "sha256": "bb7ed399a294febc1ad3ad336077d34a98129923bea7aab4a84978005fb56af4"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_confirmation_v3/source_hashes.json": {
+      "bytes": 1238,
+      "sha256": "bd996865202ba6006fbfdc46ff46312fb8c7839d6538d9e6d21db8fff18c107c"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_confirmation_v3/summary.json": {
+      "bytes": 22482,
+      "sha256": "f4ac46959ac6069a6f1195aaa3bc4949a70b7916c8ec2831558824a8fbb84652"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_development_v2/fixed_development.json": {
+      "bytes": 122,
+      "sha256": "e9f1503b3528a03fc85ba4c2cb7258953c590669b0c969d5a448f8bb2549845c"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_development_v2/fixed_development_ranking.json": {
+      "bytes": 8460,
+      "sha256": "0b9a81d71c72ae78134f4d58db87a0475487c80ced637806ce4cce9509d098cf"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_development_v2/protocol.json": {
+      "bytes": 1837,
+      "sha256": "d4cf25cc17132a9b0e52ab68d842f0c3f96deb6560ac728c8b880665a8e8d274"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_development_v2/source_hashes.json": {
+      "bytes": 1017,
+      "sha256": "56cad1a94dd1bf48313b69fe68ca0b80ba6716bdd23a99bc1108b0cefd0c1fde"
+    },
+    "supplementary_records/historical/historical/code/results/verification_budget_development_v2/summary.json": {
+      "bytes": 18467,
+      "sha256": "327e6be6a83996e312b291f016a5c4e13655425ffeb99fd02bda07f80c8c5516"
+    },
+    "supplementary_records/original_scripts/MECHANICAL_PHYSICAL_METRICS_PLAN.md": {
+      "bytes": 2077,
+      "sha256": "124f1d7f28988043e54166ec03daa95c625b52e87abb34350862e1a79ad46cdc"
+    },
+    "supplementary_records/original_scripts/audit_pendulum_regional.py": {
+      "bytes": 6768,
+      "sha256": "e4ad538f7ee0202a01005eb11912528d5494d121f0821e336945a4bb972391d9"
+    },
+    "supplementary_records/original_scripts/audit_physical_metrics.py": {
+      "bytes": 3688,
+      "sha256": "a8c43358a0755e48da72f52ccade1beed7ad6fd35c6635bcea8535995fbfef2a"
+    },
+    "supplementary_records/original_scripts/mechanical_physical_metrics.py": {
+      "bytes": 5582,
+      "sha256": "739032f8fff4311da82af71ad9e1c7bd9c39169267a01ebb40e19de1b9bc99d3"
+    },
+    "supplementary_records/original_scripts/return_certificate.py": {
+      "bytes": 3983,
+      "sha256": "3ab85b3c4a5fb718a41749630dede8d9d8e741780a338d80d99b3538e499c1b4"
+    },
+    "supplementary_records/original_scripts/variance_replay.py": {
+      "bytes": 9946,
+      "sha256": "6384433458309adf00a36d62b3899f3ba6c6b16993bea62f8965974202c17389"
+    },
+    "supplementary_records/pendulum_audit.py": {
+      "bytes": 10985,
+      "sha256": "4aa31532799979746924b77c35b1595c147b2ba2f65eb68e8177a8f530d0e34f"
+    },
+    "supplementary_records/summaries/coupling_sensitivity.json": {
+      "bytes": 53373,
+      "sha256": "2306e02eb4bf7326bdfea210bd763c3a824ce99c9a28a614a0704b4569b087b7"
+    },
+    "supplementary_records/summaries/mechanical_physical_metrics.json": {
+      "bytes": 30306,
+      "sha256": "4338559a19a88e0d92592f69ef56611728585b600eca9fa464dab3716e2b9dbb"
+    },
+    "supplementary_records/summaries/nonnormal.json": {
+      "bytes": 9598,
+      "sha256": "5421a85a5fc0f5b3ea376ddd6842400078c34fa224050bd81cdeb8fc6bd6ff2a"
+    },
+    "supplementary_records/summaries/original_mechanical_audit.json": {
+      "bytes": 360,
+      "sha256": "2b552f7f7c66261e7852dc9df753bac3a0bbf7313361072369dfb53175df7934"
+    },
+    "supplementary_records/summaries/pendulum_record_manifest.json": {
+      "bytes": 13191,
+      "sha256": "05e3d5ab5e72b00dc48c834e8ffe779761384c663b8bc929a55c31884d66f7a7"
+    },
+    "supplementary_records/summaries/verifier_comparison.json": {
+      "bytes": 7748,
+      "sha256": "c33f6831779945ce9ff65a59bc679db2f1f59eba38e9be986ca67ff053c86649"
     },
     "tests/test_finite_power.py": {
       "bytes": 6643,

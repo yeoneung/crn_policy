@@ -1,0 +1,386 @@
+{
+  "114688": [
+    {
+      "arm": 4,
+      "calibration_pairs": 2048,
+      "gain": 0.005447911773349001,
+      "adoptions": 20,
+      "mean_cost": 108516.0
+    },
+    {
+      "arm": 4,
+      "calibration_pairs": 512,
+      "gain": 0.004946423270178417,
+      "adoptions": 18,
+      "mean_cost": 108244.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 2048,
+      "gain": 0.0048522971106215685,
+      "adoptions": 26,
+      "mean_cost": 103466.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 8192,
+      "gain": 0.004438457837013722,
+      "adoptions": 22,
+      "mean_cost": 111514.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 512,
+      "gain": 0.00427704657567766,
+      "adoptions": 22,
+      "mean_cost": 103444.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 2048,
+      "gain": 0.003906110579443388,
+      "adoptions": 28,
+      "mean_cost": 101636.0
+    },
+    {
+      "arm": 4,
+      "calibration_pairs": 8192,
+      "gain": 0.003633427200006144,
+      "adoptions": 11,
+      "mean_cost": 113744.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 8192,
+      "gain": 0.0035781043304632396,
+      "adoptions": 24,
+      "mean_cost": 110334.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 512,
+      "gain": 0.0035302658574727554,
+      "adoptions": 24,
+      "mean_cost": 101944.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 2048,
+      "gain": 0.002594591697475796,
+      "adoptions": 6,
+      "mean_cost": 113646.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 2048,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 99256.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 8192,
+      "gain": 0.002149524637542816,
+      "adoptions": 26,
+      "mean_cost": 109394.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 512,
+      "gain": 0.002078135614543069,
+      "adoptions": 25,
+      "mean_cost": 100274.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 512,
+      "gain": 0.001918072302206766,
+      "adoptions": 5,
+      "mean_cost": 113734.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 2048,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 98456.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 8192,
+      "gain": 0.0011756085108426558,
+      "adoptions": 27,
+      "mean_cost": 108644.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 512,
+      "gain": 0.001147371873659902,
+      "adoptions": 26,
+      "mean_cost": 99644.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 8192,
+      "gain": 0.0,
+      "adoptions": 0,
+      "mean_cost": 114624.0
+    }
+  ],
+  "139264": [
+    {
+      "arm": 4,
+      "calibration_pairs": 2048,
+      "gain": 0.006268010155280997,
+      "adoptions": 26,
+      "mean_cost": 115071.0
+    },
+    {
+      "arm": 4,
+      "calibration_pairs": 8192,
+      "gain": 0.006268010155280997,
+      "adoptions": 26,
+      "mean_cost": 123104.0
+    },
+    {
+      "arm": 4,
+      "calibration_pairs": 512,
+      "gain": 0.005832788437240829,
+      "adoptions": 23,
+      "mean_cost": 116984.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 2048,
+      "gain": 0.005397456154402099,
+      "adoptions": 32,
+      "mean_cost": 105136.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 8192,
+      "gain": 0.005397456154402099,
+      "adoptions": 32,
+      "mean_cost": 114584.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 2048,
+      "gain": 0.005348295756045561,
+      "adoptions": 19,
+      "mean_cost": 128348.5
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 512,
+      "gain": 0.005158661259873881,
+      "adoptions": 18,
+      "mean_cost": 129584.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 512,
+      "gain": 0.004948304086129786,
+      "adoptions": 27,
+      "mean_cost": 109064.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 8192,
+      "gain": 0.004707482495337477,
+      "adoptions": 15,
+      "mean_cost": 133504.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 2048,
+      "gain": 0.004193036642606126,
+      "adoptions": 32,
+      "mean_cost": 101816.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 8192,
+      "gain": 0.004193036642606126,
+      "adoptions": 32,
+      "mean_cost": 111864.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 512,
+      "gain": 0.003984514207391316,
+      "adoptions": 29,
+      "mean_cost": 106424.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 2048,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 99256.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 512,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 103224.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 8192,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 109944.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 2048,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 98456.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 512,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 101944.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 8192,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 108904.0
+    }
+  ],
+  "180224": [
+    {
+      "arm": 4,
+      "calibration_pairs": 8192,
+      "gain": 0.006712648126753528,
+      "adoptions": 31,
+      "mean_cost": 128104.0
+    },
+    {
+      "arm": 4,
+      "calibration_pairs": 2048,
+      "gain": 0.006643655969565565,
+      "adoptions": 30,
+      "mean_cost": 120301.0
+    },
+    {
+      "arm": 4,
+      "calibration_pairs": 512,
+      "gain": 0.006367514413832643,
+      "adoptions": 27,
+      "mean_cost": 126144.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 8192,
+      "gain": 0.006337978352522624,
+      "adoptions": 25,
+      "mean_cost": 147064.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 2048,
+      "gain": 0.00621205458131128,
+      "adoptions": 24,
+      "mean_cost": 141116.0
+    },
+    {
+      "arm": 5,
+      "calibration_pairs": 512,
+      "gain": 0.005964786279867219,
+      "adoptions": 22,
+      "mean_cost": 145264.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 2048,
+      "gain": 0.005397456154402099,
+      "adoptions": 32,
+      "mean_cost": 105136.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 512,
+      "gain": 0.005397456154402099,
+      "adoptions": 32,
+      "mean_cost": 112064.0
+    },
+    {
+      "arm": 3,
+      "calibration_pairs": 8192,
+      "gain": 0.005397456154402099,
+      "adoptions": 32,
+      "mean_cost": 114584.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 2048,
+      "gain": 0.004193036642606126,
+      "adoptions": 32,
+      "mean_cost": 101816.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 512,
+      "gain": 0.004193036642606126,
+      "adoptions": 32,
+      "mean_cost": 107064.0
+    },
+    {
+      "arm": 2,
+      "calibration_pairs": 8192,
+      "gain": 0.004193036642606126,
+      "adoptions": 32,
+      "mean_cost": 111864.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 2048,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 99256.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 512,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 103224.0
+    },
+    {
+      "arm": 1,
+      "calibration_pairs": 8192,
+      "gain": 0.0024224497070579323,
+      "adoptions": 32,
+      "mean_cost": 109944.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 2048,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 98456.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 512,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 101944.0
+    },
+    {
+      "arm": 0,
+      "calibration_pairs": 8192,
+      "gain": 0.0012966352356563492,
+      "adoptions": 32,
+      "mean_cost": 108904.0
+    }
+  ]
+}

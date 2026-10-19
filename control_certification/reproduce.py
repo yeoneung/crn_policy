@@ -2,6 +2,7 @@
 
 verify: check packaged file hashes and all frozen source/data records.
 quick: tests, finite-power stress checks and fresh nonnormal example.
+current: targeted replay of all active simulation comparisons.
 all: quick plus recorded summary/figure replay and every legacy replay group.
 """
 import argparse
@@ -39,7 +40,7 @@ def verify_package():
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command', choices=['verify', 'quick', 'all'])
+    parser.add_argument('command', choices=['verify', 'quick', 'current', 'all'])
     parser.add_argument('--work-dir', type=Path, help='New directory for logs and generated evidence')
     args = parser.parse_args()
     timestamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')
@@ -73,16 +74,16 @@ def main():
     try:
         verify_package()
         execute('frozen_integrity', ['reproduce.py', 'verify'], LEGACY)
-        if args.command in ['quick', 'all']:
+        if args.command in ['quick', 'current', 'all']:
             execute('finite_power_tests', ['-m', 'unittest', 'discover', '-s', 'tests', '-v'])
             execute('legacy_runner_tests', ['-m', 'unittest', 'discover', '-s', 'tests', '-v'], LEGACY)
             execute('finite_power_stress', ['audit_matrix_certificate.py', '--output',
                                             work / 'evidence/matrix_certificate_audit.json'])
             execute('finite_power_example', ['-m', 'examples.nonnormal_certificate',
                                              '--output', work / 'finite_power_example.json'])
-        if args.command == 'quick':
+        if args.command in ['quick', 'current']:
             execute('legacy_verifier_tests', ['reproduce.py', 'tests', '--work-dir', work / 'legacy-tests'], LEGACY)
-        if args.command == 'all':
+        if args.command in ['current', 'all']:
             execute('recorded_summaries', ['audit_evidence.py', '--output',
                                           work / 'evidence/numerical_audit.json'])
             execute('finite_power_study', ['-m', 'examples.finite_power_study',
@@ -91,6 +92,14 @@ def main():
             execute('finite_power_study_audit', ['audit_finite_power_study.py', '--output',
                                                  work / 'evidence/finite_power_study_audit.json'])
             execute('summary_figure', ['make_figure.py', '--output-dir', work / 'figure'])
+        if args.command == 'current':
+            execute('included_comparisons', ['audit_included_experiments.py', '--output',
+                                             work / 'evidence/included_comparisons.json'])
+            execute('coupling_diagnostics', ['reproduce.py', 'coupling', '--work-dir',
+                                             work / 'coupling'], LEGACY)
+            execute('regional_regulation', ['supplementary_records/pendulum_audit.py',
+                                            '--output', work / 'evidence/regulation.json'])
+        if args.command == 'all':
             execute('legacy_all', ['reproduce.py', 'all', '--work-dir', work / 'legacy-all'], LEGACY)
         record['status'] = 'passed'
     except Exception:

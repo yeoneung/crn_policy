@@ -1,9 +1,0 @@
-{
-  "executed_utc": "2026-09-28T00:53:29.936590+00:00",
-  "records": 512,
-  "plants": 64,
-  "original_mixture_replays": 256,
-  "original_mixture_exact_matches": true,
-  "protocol_sha256": "4b663189c7e1f22d5f6411d0e286ba69822ba236ad7a0cee45012c72c9a42440",
-  "status": "retrospective robustness replay; no new training"
-}

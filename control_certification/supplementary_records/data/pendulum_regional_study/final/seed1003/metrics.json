@@ -1,0 +1,122 @@
+{
+  "gain": 0.7875514736537267,
+  "damping": 0.0756705810218822,
+  "seed": 1003,
+  "independent_gain": 1.555715505832721e-05,
+  "independent_gain_se": 1.8402455153751863e-07,
+  "baseline_mean_return": -0.045254465037399945,
+  "relative_gain": 0.0003437706101590243,
+  "max_abs_return_difference": 6.075433264550456e-05,
+  "certification_audit": {
+    "max_baseline_norm": 0.18999999804812784,
+    "max_repair_norm": 0.18999999804812784,
+    "max_state_difference": 0.0017601892149631576,
+    "state_envelope_violations": 0
+  },
+  "evaluation_audit": {
+    "max_baseline_norm": 0.18998209124281748,
+    "max_repair_norm": 0.18998209124281748,
+    "max_state_difference": 0.0017603876979756746,
+    "state_envelope_violations": 0
+  },
+  "training_transitions": 43520,
+  "actual_transitions": 2992640,
+  "results": [
+    {
+      "kind": "global",
+      "method": "fixed_mixture",
+      "bound": 650.9441760435744,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2664960,
+      "outcome": "inconclusive",
+      "adopted": false,
+      "pairs": 32768,
+      "positive_log_wealth": 0.00044921526743679774,
+      "negative_log_wealth": -0.0004490927665791178
+    },
+    {
+      "kind": "global",
+      "method": "predictable_empirical_bernstein",
+      "bound": 650.9441760435744,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2664960,
+      "outcome": "inconclusive",
+      "adopted": false,
+      "pairs": 32768,
+      "positive_log_wealth": 0.00029504545309571185,
+      "negative_log_wealth": -0.00029504545645916546
+    },
+    {
+      "kind": "regional_marginal",
+      "method": "fixed_mixture",
+      "bound": 0.2986177692092668,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2664960,
+      "outcome": "inconclusive",
+      "adopted": false,
+      "pairs": 32768,
+      "positive_log_wealth": 1.2370891362029157,
+      "negative_log_wealth": -0.7005311181927245
+    },
+    {
+      "kind": "regional_marginal",
+      "method": "predictable_empirical_bernstein",
+      "bound": 0.2986177692092668,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2664960,
+      "outcome": "inconclusive",
+      "adopted": false,
+      "pairs": 32768,
+      "positive_log_wealth": 0.643149057739565,
+      "negative_log_wealth": -0.6431650217230235
+    },
+    {
+      "kind": "constantcap",
+      "method": "fixed_mixture",
+      "bound": 0.053647701862206035,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2199040,
+      "outcome": "adopt",
+      "adopted": true,
+      "pairs": 26944,
+      "positive_log_wealth": 7.157655210413602,
+      "negative_log_wealth": -1.3152370126351263
+    },
+    {
+      "kind": "constantcap",
+      "method": "predictable_empirical_bernstein",
+      "bound": 0.053647701862206035,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2664960,
+      "outcome": "inconclusive",
+      "adopted": false,
+      "pairs": 32768,
+      "positive_log_wealth": 3.579740533477556,
+      "negative_log_wealth": -3.580235151933737
+    },
+    {
+      "kind": "statecap",
+      "method": "fixed_mixture",
+      "bound": 0.022793259682550682,
+      "alpha": 0.00078125,
+      "total_used_transitions": 966400,
+      "outcome": "adopt",
+      "adopted": true,
+      "pairs": 11536,
+      "positive_log_wealth": 7.1648207664343015,
+      "negative_log_wealth": -1.3157070843829293
+    },
+    {
+      "kind": "statecap",
+      "method": "predictable_empirical_bernstein",
+      "bound": 0.022793259682550682,
+      "alpha": 0.00078125,
+      "total_used_transitions": 2269440,
+      "outcome": "adopt",
+      "adopted": true,
+      "pairs": 27824,
+      "positive_log_wealth": 7.157711964400416,
+      "negative_log_wealth": -7.160042416093348
+    }
+  ]
+}

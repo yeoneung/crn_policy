@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "counts": {
+    "frozen_files": 82,
+    "preevaluation_files": 6396,
+    "certificates": 5152,
+    "scalar_cells": 288,
+    "exact_policy_returns": 2016,
+    "training_cost_records": 192
+  },
+  "seconds": 17.584250688552856,
+  "scope": "Numerical and provenance audit; scientific assumptions remain explicit."
+}

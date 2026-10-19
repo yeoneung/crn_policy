@@ -1,4 +1,3 @@
-# Local environments and generated runs
 .venv/
 venv/
 __pycache__/
@@ -6,10 +5,6 @@ __pycache__/
 .pytest_cache/
 runs/
 dist/
-tmp/
-# Raw banks are distributed as a separate release asset.
-data/*.zip
-data/*.zip.part
 *.log
 .DS_Store
 Thumbs.db
@@ -17,8 +12,6 @@ Thumbs.db
 .env.*
 .idea/
 .vscode/
-
-# Code/data build products and separately released original banks
 control_certification/reproducibility/crn_policy/data/*.zip
 control_certification/reproducibility/crn_policy/data/*.zip.part
 control_certification/control_certification.zip

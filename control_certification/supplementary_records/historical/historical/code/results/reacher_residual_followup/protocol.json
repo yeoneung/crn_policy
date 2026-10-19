@@ -1,0 +1,29 @@
+{
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "repeats": [
+    0,
+    1
+  ],
+  "budgets": [
+    10000,
+    20000,
+    40000,
+    80000,
+    160000
+  ],
+  "alpha": 0.00020833333333333335,
+  "bound": 23.625049999999998,
+  "learning_rate": 0.0003,
+  "primary_training_budget": 80000,
+  "existing_environment_instances": true,
+  "final_pairs": 2048
+}

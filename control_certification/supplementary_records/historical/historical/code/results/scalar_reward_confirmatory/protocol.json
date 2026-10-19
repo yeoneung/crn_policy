@@ -1,0 +1,41 @@
+{
+  "families": [
+    "regular",
+    "anisotropic",
+    "rotated",
+    "circulating"
+  ],
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "n": [
+    16,
+    64,
+    256
+  ],
+  "sigma": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "methods": [
+    "B",
+    "Plugin",
+    "FixedAngle",
+    "Angular",
+    "Norm",
+    "Cylinder",
+    "Ellipsoid"
+  ],
+  "alpha": 0.00017361111111111112,
+  "noise_variance_supplied": false,
+  "observation": "scalar discounted trajectory return and observed state path",
+  "known_transition_model": true
+}

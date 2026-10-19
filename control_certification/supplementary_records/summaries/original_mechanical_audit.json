@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_and_policy_hashes": 22,
+  "raw_banks": 16,
+  "independently_replayed_metric_streams": 192,
+  "maximum_absolute_difference": 2.6645352591003757e-15,
+  "transitions": 5242880,
+  "seconds": 7.485247850418091,
+  "scope": "Reproducibility audit of secondary physical metrics; no new statistical units or safety guarantee."
+}

@@ -1,0 +1,205 @@
+{
+  "post_hoc_implementation_audit": true,
+  "rows": [
+    {
+      "n": 4,
+      "seed": 200,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0,
+      "legacy": {
+        "median_us": 237.55,
+        "p95_us": 439.305,
+        "calls": 640
+      },
+      "vectorized": {
+        "median_us": 55.4,
+        "p95_us": 94.91999999999989,
+        "calls": 640
+      },
+      "baseline": {
+        "median_us": 0.8,
+        "p95_us": 1.3,
+        "calls": 640
+      },
+      "median_speedup": 4.287906137184116,
+      "coefficient_bytes": 368
+    },
+    {
+      "n": 4,
+      "seed": 201,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "seed": 202,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "seed": 203,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "seed": 204,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "seed": 205,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "seed": 206,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 4,
+      "seed": 207,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 200,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0,
+      "legacy": {
+        "median_us": 448.7,
+        "p95_us": 765.4,
+        "calls": 640
+      },
+      "vectorized": {
+        "median_us": 55.9,
+        "p95_us": 64.42499999999998,
+        "calls": 640
+      },
+      "baseline": {
+        "median_us": 0.8,
+        "p95_us": 0.8,
+        "calls": 640
+      },
+      "median_speedup": 8.026833631484795,
+      "coefficient_bytes": 1232
+    },
+    {
+      "n": 8,
+      "seed": 201,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 202,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 203,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 204,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 205,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 206,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 8,
+      "seed": 207,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 200,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0,
+      "legacy": {
+        "median_us": 874.6500000000001,
+        "p95_us": 1455.91,
+        "calls": 640
+      },
+      "vectorized": {
+        "median_us": 61.1,
+        "p95_us": 109.74999999999996,
+        "calls": 640
+      },
+      "baseline": {
+        "median_us": 1.3,
+        "p95_us": 1.4,
+        "calls": 640
+      },
+      "median_speedup": 14.31505728314239,
+      "coefficient_bytes": 4496
+    },
+    {
+      "n": 16,
+      "seed": 201,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 202,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 203,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 204,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 205,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 206,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    },
+    {
+      "n": 16,
+      "seed": 207,
+      "action_max_error": 0.0,
+      "return_max_error": 0.0
+    }
+  ],
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.2.6",
+  "threads": 1,
+  "seconds": 13.287112474441528,
+  "caveat": "Other research processes may be active. Timing is descriptive, not a real-time deployment guarantee."
+}

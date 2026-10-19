@@ -15,5 +15,10 @@ jobs:
           cache-dependency-path: control_certification/requirements.txt
       - run: python -m pip install -r requirements.txt
       - run: python -m unittest discover -s tests -v
-      - run: python audit_finite_power_study.py --output ../ci-certification/audit.json
+      - run: python -m unittest discover -s reproducibility/crn_policy/tests -v
+      - run: python reproducibility/crn_policy/reproduce.py tests --work-dir ../ci-certification/legacy-tests
+      - run: python supplementary_records/audit.py
+      - run: python supplementary_records/pendulum_audit.py --output ../ci-certification/regulation.json
+      - run: python audit_finite_power_study.py --output ../ci-certification/finite-power.json
       - run: python -m examples.finite_power_study --replay-from evidence/finite_power_study --output-dir ../ci-certification/replay
+      - run: python prepare_sources.py --mode fresh --output ../ci-certification/fresh-sources
